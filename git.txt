@@ -16,7 +16,7 @@ git status
 git commit -m "what has changed"
 
 //publish the changes to all of us
-git push https://github.com/flyEagelsfly/KAOS-GIS  master
+git push https://github.com/HsKA-OSGIS/KAOS-GIS.git  master
 
 // update changes others have done
 // (you have to cd in the folder KAOS-GIS)
