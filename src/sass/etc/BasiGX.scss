@@ -1,0 +1,167 @@
+/**
+ * component/Map.scss
+ */
+div.feature-hover-popup {
+    background: rgba(255,255,255,0.8);
+    padding: 3px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    color: #333;
+}
+
+/**
+ * panel/Header.scss
+ */
+.basigx-header {
+    background-color: #fff;
+}
+.k-application-title .x-title-text {
+    color: $base-color;
+    font-size: 42px;
+    font-family: "opensansCondBold",Arial,helvetica,sans-serif;
+}
+.basigx-header a.k-application-title {
+    text-decoration: none!important;
+}
+.basigx-header .x-btn-default-toolbar-small.x-btn-over {
+    background-image: -webkit-linear-gradient(top, #5b7792, #496886 50%, #456380 51%, #496886) !important;
+}
+.basigx-header .x-btn-over .x-btn-inner-default-toolbar-small {
+    color: #ffffff;
+}
+.basigx-header .x-form-trigger-over {
+    background-color: $base-color !important;
+}
+
+
+/**
+ * panel/ThemeTree.scss
+ */
+
+.x-btn-group .x-btn-default-toolbar-small.x-btn-over {
+    background-image: -webkit-linear-gradient(top, #5b7792, #496886 50%, #456380 51%, #496886) !important;
+}
+.x-btn-group .x-btn-over .x-btn-inner-default-toolbar-small {
+    color: #ffffff;
+}
+
+
+
+/**
+ * panel/LayerSetChooser.scss
+ */
+.img-chooser-view {
+    background: white;
+    font: 11px Arial, Helvetica, sans-serif;
+}
+.img-chooser-view .thumb {
+    padding: 3px;
+}
+.img-chooser-view .thumb-wrap {
+    height: 90px;
+    float: left;
+    margin: 4px;
+    margin-right: 0;
+    padding: 5px;
+    -webkit-transition: background-color 1s, border-color 0.5s;
+    transition: background-color 1s, border-color 0.5s;
+}
+.img-chooser-view .thumb-wrap span {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+}
+.img-chooser-view .x-view-over {
+    border: 1px solid #dddddd;
+    background-color: #efefef;
+    padding: 4px;
+}
+.img-chooser-view .x-item-selected {
+    background: #DFEDFF;
+    border: 1px solid #6593cf;
+    padding: 4px;
+}
+.img-chooser-view .x-item-selected .thumb {
+    background: transparent;
+}
+.img-chooser-view .x-item-selected span {
+    color: #1A4D8F;
+}
+.img-chooser-view .loading-indicator {
+    font-size: 11px;
+    background-image: url('../../resources/images/grid/loading.gif');
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 20px;
+    margin: 10px;
+}
+#images img {
+    margin: 20px;
+}
+
+/**
+ * panel/LegendTree.scss
+ */
+.basigx-legend-panel {
+    bottom: 0 !important;
+    top: auto !important;
+    right: 0 !important;
+}
+.basigx-legend {
+    margin: 3px 0 0 0;
+    border: 1px solid transparent;
+    border-radius: 6px;
+}
+
+/**
+ * panel/MapContainer.scss
+ */
+.basigx-map-tools {
+    right: 0 !important;
+    left: auto !important;
+    background-color: transparent !important;
+}
+
+.basigx-map-tools .x-btn-icon-el-default-toolbar-large {
+    color: $base-color !important;
+}
+
+.basigx-map-tools .x-btn-over .x-btn-icon-el-default-toolbar-large {
+    color: #ffffff !important;
+}
+
+.basigx-map-tools .x-btn-default-toolbar-large.x-btn-over {
+    background-image:  -webkit-linear-gradient(top, #5b7792, #496886 50%, #456380 51%, #496886) !important;
+}
+
+
+
+.basigx-overview-map {
+    top: auto !important;
+    bottom: 0 !important;
+    background-color: white;
+}
+.basigx-overview-map-button {
+    top: auto !important;
+    bottom: 5px !important;
+    left: 5px !important;
+    background-color: $base-color !important;
+}
+.ol-scale-line {
+    bottom: 5px;
+    left: 50px;
+    background-color: $base-color !important;
+}
+.ol-scale-line.basigx-scaline-adjusted {
+    left: 405px;
+}
+.basigx-combo-scale {
+    top: auto;
+    bottom: 5px;
+    left: 50px;
+    background-color: white;
+}
+.basigx-combo-scale-adjusted {
+    left: 405px;
+}

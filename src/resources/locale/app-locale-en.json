@@ -1,0 +1,1579 @@
+{
+    "Koala.util.Date": {
+        "statics": {
+            "txtUtc": "(UTC)",
+            "txtLocal": "(local)"
+        }
+    },
+    "Koala.util.Layer": {
+        "statics": {
+            "txtUntil": "until",
+            "titleAddLayer": "Layer",
+            "titleAddLayerFilter": "Layer-Filter",
+            "textUnknownLayer": "unknown",
+            "dspSignEq": " = ",
+            "dspSignNotEq": " ≠ ",
+            "dspSignLtEq": " ≤ ",
+            "dspSignGtEq": " ≥ ",
+            "dspSignLt": " < ",
+            "dspSignGt": " > ",
+            "dspSignIn": "either ",
+            "dspSignInJoiner": ", ",
+            "dspSignInLastJoiner": " or ",
+            "dspSignNotInJoiner": ",",
+            "dspSignNotIn": "neither ",
+            "dspSignNotInLastJoiner": " nor "
+        }
+    },
+    "Koala.util.Filter": {
+        "statics": {
+            "warnMsgEndBeforeStart": "Start date must be before end date.",
+            "warnMsgExceedsMaxDuration": "Start date and end date are too far apart.",
+            "msgNotBetweenMinMax": "Date/time are not within a valid range."
+        }
+    },
+    "Koala.util.Routing": {
+        "statics": {
+            "illegalFilter": "The permalink contains an invalid '{0}'-filter.",
+            "unknownFilter": "The permalink contains an unknown filter."
+        }
+    },
+    "Koala.util.String": {
+        "statics": {
+            "defaultDateFormat": "Y/m/d H:i:s"
+        }
+    },
+    "Koala.view.button.Permalink": {
+        "config": {
+            "data":{
+                "tooltip": "Permalink",
+                "windowTitle": "Permalink"
+            }
+        }
+    },
+    "Koala.view.button.ShowRedliningToolsContainer": {
+        "config": {
+            "data": {
+                "tooltip": "Drawtools"
+            }
+        }
+    },
+    "Koala.view.button.TimeReference": {
+        "config": {
+            "data":{
+                "textUtc": "Time Reference (UTC)",
+                "textLocal": "Time Reference (local)",
+                "tooltipUtc": "Currently time is set and shown in UTC, press for switching to local time.",
+                "tooltipLocal": "Currently time is set and shown in local time, press for switching to UTC."
+            }
+        }
+    },
+    "Koala.view.component.CartoWindow": {
+        "config": {
+            "data": {
+                "autorefresh": "Autorefresh",
+                "autorefreshExpand": "Extend time window",
+                "autorefreshMove": "Move time window",
+                "autorefreshOptions": "Autorefresh options",
+                "info": "Info",
+                "expandToLeft": "Show older data",
+                "expandToRight": "Show newer data",
+                "toggleLegendVisibility": "Toggle legend visibility",
+                "exportToPngText": "Download Chart",
+                "toggleGrouping": "Toggle grouping",
+                "toggleUncertainty": "Toggle uncertainty",
+                "irixPrintText": "DokPool",
+                "irixPrintTooltip": "export chart into DokPool"
+            }
+        }
+    },
+    "Koala.view.component.D3BarChart": {
+        "config": {
+            "data": {
+                "belowDetectionLimitLabel": "< LDL",
+                "noDataAvailableText": "There is no data available for the specified time range. Please select a different period.",
+                "colorWindowTitle": "Pick color",
+                "colorWindowMessage": "Please select a color:",
+                "colorMsgButtonYes": "Ok",
+                "colorMsgButtonNo": "Cancel"
+            }
+        }
+    },
+    "Koala.view.component.D3Chart": {
+        "config": {
+            "data": {
+                "noDataAvailableText": "There is no data available for the specified time range. Please select a different period.",
+                "colorWindowTitle": "Pick color",
+                "colorWindowMessage": "Please select a color:",
+                "colorMsgButtonYes": "Ok",
+                "colorMsgButtonNo": "Cancel"
+            }
+        }
+    },
+    "Koala.view.chart.Bar": {
+        "config": {
+            "data": {
+                "name": "Koala"
+            }
+        }
+    },
+    "Koala.view.chart.TimeSeries": {
+        "config": {
+            "data": {
+                "name": "Koala"
+            }
+        }
+    },
+    "Koala.view.container.RedliningToolsContainer": {
+        "config": {
+            "data": {
+                "drawPointBtnTooltip": "Draw point",
+                "drawLinesBtnTooltip": "Draw line",
+                "drawPolygonsBtnTooltip": "Draw area",
+                "modifyObjectBtnTooltip": "Modify objects",
+                "deleteObjectBtnTooltip": "Delete objects",
+                "clearObjectsBtnTooltip": "Delete all"
+            }
+        }
+    },
+    "Koala.view.container.styler.Filter": {
+        "config": {
+            "data": {
+                "attributeComboLabel": "Attribute",
+                "operatorComboLabel": "Operator",
+                "literalNumberField1Label": "Lower Boundary",
+                "literalNumberField2Label": "Value",
+                "literalTextFieldLabel": "'Is like' pattern",
+                "upperBoundaryText": "Upper Boundary",
+                "valueText": "Value",
+                "isLikeText": "'Is like' pattern"
+            }
+        }
+    },
+    "Koala.view.container.styler.Rule": {
+        "config": {
+            "data": {
+                "titlePrefix": "Feature Style Rule",
+                "removeRuleButtonText": "Remove this rule",
+                "oneRuleRequiredWarning": "At least one rule is required."
+            }
+        }
+    },
+    "Koala.view.container.styler.Rules": {
+        "config": {
+            "data": {
+                "addRuleButtonText": "Add Rule"
+            }
+        }
+    },
+    "Koala.view.container.styler.ScaleDenominator": {
+        "config": {
+            "data": {
+                "title": "Apply Scale Limitationen",
+                "operatorComboLabel": "Operator",
+                "literalNumberField1Label": "Lower Boundary",
+                "literalNumberField2Label": "Upper Boundary"
+            }
+        }
+    },
+    "Koala.view.container.styler.Styler": {
+        "config": {
+            "data": {
+                "missingOrInvalidLayerName": "'layerName' is mandatory and has to have a NameSpace",
+                "genericError": "An unknown error occurred",
+                "failedToFetch": "The current style could not be read",
+                "titlePrefix": "Styling ",
+                "btnTextReloadCurrentStyle": "Reset to original style",
+                "btnTextApplyAndSave": "Save Style",
+                "dspLayerName": ""
+            }
+        }
+    },
+    "Koala.view.container.styler.Symbolizer": {
+        "config": {
+            "data": {
+                "title": "Symbol",
+                "windowTitle": "Symbol",
+                "symbolizerFieldSetHtml": "Press for editing"
+            }
+        }
+    },
+    "Koala.view.container.styler.Label": {
+        "config": {
+            "data": {
+                "labelFieldSetTitle": "Labeling",
+                "textFieldLabel": "Text/Template",
+                "fontFamilyFieldLabel": "Font Family",
+                "fontStyleFieldLabel": "Font Style",
+                "fontSizeFieldLabel": "Font Size",
+                "fontColorFieldLabel": "Font Color:",
+                "fontStrokeColorFieldLabel": "Font Contour:",
+                "rotationFieldLabel": "Rotation",
+                "offsetXFieldLabel": "Offset X",
+                "offsetYFieldLabel": "Offset Y"
+            }
+        }
+    },
+
+    "Koala.view.form.ImportLocalDataModel": {
+        "config": {
+            "data": {
+                "fieldSetTitle": "Import from",
+                "cancelButtonText": "Abort",
+                "importButtonText": "Import",
+                "layerNameLabel": "Layer Name",
+                "templateLabel": "Template",
+                "projectionLabel": "Projection",
+                "fileFieldLabel": "File",
+                "fileFieldButtonText": "Browse"
+            }
+        }
+    },
+    "Koala.view.form.field.LanguageCombo": {
+        "config": {
+            "data": {
+                "tooltip": "Press for language selection"
+            }
+        }
+    },
+    "Koala.view.form.field.SearchCombo": {
+        "config": {
+            "data": {
+                "emptyText": "Combo Search",
+                "fieldLabel": "",
+                "tooltip": "Spatial search and search for BfS-data and -services"
+            }
+        }
+    },
+    "Koala.view.form.Print": {
+        "config": {
+            "data": {
+                "title": "print",
+                "labelDpi": "DPI",
+                "printButtonSuffix": "get print",
+                "downloadButtonPrefix": "download",
+                "printFormat": "pdf",
+                "printAppFieldSetTitle": "template",
+                "genericFieldSetTitle": "settings",
+                "formatComboLabel": "format",
+                "layoutComboLabel": "layout",
+                "attributesTitle": "attributes",
+                "mapTitleLabel": "en:Kartentitel",
+                "map_label": "map",
+                "northArrow_label": "north arrow",
+                "northArrow_boxLabel": "en:...verwenden ?",
+                "scaleBar_label": "scalebar",
+                "scaleBar_boxLabel": "en:...verwenden ?",
+                "map_attribution_label": "map attribution",
+                "is_exercise_label": "EXERCISE",
+                "title_label": "titel",
+                "description_label": "description",
+                "comment_label": "comment",
+                "impressum_label": "impressum",
+                "doc_creator_label": "creator",
+                "serverUploadSuccessTitle": "Print successfully completed",
+                "serverUploadSuccess": "Print successfully initiated.",
+                "serverErrorTitle": "Print Error",
+                "serverError": "A server-side error occurred during the print process. Internal state: {0}",
+                "disablePopupBlocker": "Please disable any popup blocker and repeat the last action.",
+                "disablePopupBlockerTitle": "Popup blocker enabled?",
+                "unexpectedResponseTitle": "Unexpected Response",
+                "printLegendsFieldSetTitle": "Print Legends",
+                "unexpectedResponse": "Printing process returned unexpected response.",
+                "printButtonPrefix": "Document",
+                "printButtonDokpoolText": "send to Dokpool",
+                "downloadButtonSuffix": "Download",
+                "downloadOngoingMiddleText": " will be prepared",
+                "mapBboxLabel": "BBOX",
+                "mapBboxButton": "Info",
+                "warnPrintTimedOutTitle": "Printing Error",
+                "warnPrintTimedOutText": "Printing process has exceeded the valid time limit.",
+                "updateLegendtext": "en:Legendtext",
+                "labelUse": "…use?",
+                "northArrow": "North arrow",
+                "scalebar": "Scale bar"
+            }
+        }
+    },
+    "Koala.view.form.RodosFilter": {
+        "config": {
+            "data": {
+                "projectComboLabel": "Project",
+            },
+        }
+    },
+    "Koala.view.grid.MetadataSearch": {
+        "config": {
+            "data": {
+                "metadataSearchTitle": "BfS-data and -services",
+                "searchInProgressText": "searching…",
+                "noRecordsFoundText": "No records found",
+                "formatNameDataset": "en:Daten",
+                "formatNameSeries": "en:Datenserie",
+                "formatNameService": "en:Dienst",
+                "columnTextName": "en:Name",
+                "columnTextService": "en:Service",
+                "addToMapTooltip": "en:Zur Karte hinzufügen",
+                "infoTooltip": "en:Info"
+            }
+        }
+    },
+    "Koala.view.grid.SpatialSearch": {
+        "config": {
+            "data": {
+                "spatialSearchTitle": "Spatial Search",
+                "searchInProgressText": "searching…",
+                "noRecordsFoundText": "No records found"
+            }
+        }
+    },
+    "Koala.view.main.Main": {
+        "config": {
+            "data": {
+                "addWmsButtonText": "WMS",
+                "addWmsButtonTooltip": "Add external WMS",
+                "printButtonText": "Print",
+                "printButtonTooltip": "Print map",
+                "buttonGroupTopTitle": "Tools",
+                "toogleOverviewBtnTooltip": "Show/hide overview map",
+                "basigx-button-zoomin-tooltip": "Zoom in",
+                "basigx-button-zoomout-tooltip": "Zoom out",
+                "basigx-button-zoomtoextent-tooltip": "Zoom to initial view",
+                "basigx-button-togglelegend-tooltip": "Toggle legend",
+                "toggleFullscreen-tooltip": "Switch between full screen and standard view",
+                "importLocalDataButtonText": "Import",
+                "importLocalDataButtonTooltip": "Import local files",
+                "importLocalDataWindowText": "Import",
+                "chartSlctnTitle": "Chart Selection",
+                "chartSlctnMsg": "Layer has a time series as well as a bar chart. Which type of diagram shall be displayed?",
+                "chartSlctnTimeSeriesBtn": "Time Series",
+                "chartSlctnBarChartBtn": "Bar Chart",
+                "rodosPanelTitle": "RODOS-Filter",
+                "headerTitle": "GEOPORTAL"
+            }
+        }
+    },
+    "Koala.view.panel.Header": {
+        "config": {
+            "data": {
+                "logoTooltip": "Link to the BfS homepage"
+            }
+        }
+    },
+    "Koala.view.panel.LayerSetChooser": {
+        "config": {
+            "data": {
+                "title": "Layer Set Selection"
+            }
+        }
+    },
+    "Koala.view.panel.MultiSearch": {
+        "config": {
+            "data": {
+                "name": "Koala"
+            }
+        }
+    },
+    "Koala.view.panel.RoutingLegendTree": {
+        "config": {
+            "data": {
+                "btnTxtCollapseAll": "",
+                "btnTooltipCollapseAll": "Collapse all legends.",
+                "btnTxtExpandAll": "",
+                "btnTooltipExpandAll": "Expand all legends.",
+                "btnTxtToggleAll": "",
+                "btnTooltipToggleAll": "Reverse legend visibility.",
+                "btnTxtRemoveAllLayers": "",
+                "btnTooltipRemoveAllLayers": "Remove all layers",
+                "confirmTitleRemoveAllLayersAll": "Remove all layers",
+                "confirmMsgRemoveAllLayers": "Please confirm that all possible layers will be removed!",
+                "downloadTitle": "Download",
+                "downloadMessage": "Download Layerdaten?",
+                "downloadButtonYes": "Yes",
+                "downloadButtonNo": "No",
+                "outputFormatText": "Output Format"
+            }
+        }
+    },
+    "Koala.view.panel.ThemeTree": {
+        "config": {
+            "data": {
+                "title": "Selection",
+                "tooltip": "Change Layer Set",
+                "tooltext": "Change Topic",
+                "btnTextResetThemeTreeFiltering": "All Layers",
+                "btnTooltipResetThemeTreeFiltering": "Resets filtering of available topics.",
+                "rodosWindowTitle": "en:RODOS Prognosen Filter"
+            }
+        }
+    },
+    "Koala.view.toolbar.Header": {
+        "config": {
+            "data": {
+                "btnTextFullscreen": "Full Screen",
+                "btnTextHelp": "Help",
+                "btnTextImprint": "Imprint",
+                "btnTooltipFullscreen": "Switch between full screen and standard view.",
+                "btnTooltipHelp": "Show help",
+                "btnTooltipImprint": "Show imprint"
+            }
+        }
+    },
+    "Koala.view.view.LayerSet": {
+        "config": {
+            "data": {
+                "name": "Koala"
+            }
+        }
+    },
+    "Koala.view.window.BarChart": {
+        "config": {
+            "data": {
+                "title": "Bar Chart",
+                "undoBtnText": "…zoom back",
+                "uncertaintyCheckboxLabel": "Uncertainty",
+                "exportAsImageBtnText": "Export as image",
+                "toggleGroupingButtonText": "Toggle grouping",
+                "printChartButtonText": "IMIS Print"
+            }
+        }
+    },
+    "Koala.view.window.LayerSetChooserWindow": {
+        "config": {
+            "data": {
+                "title": "Layer Set Selection",
+                "helpHtml": "<div>This selection window enables you to load predefined data sets (i.e. layer sets) into the map. It is not necessary to select a layer set in order to start the application.</div>"+
+                            "<div>If you close the window without selecting a layer set (X button in the upper right corner), only the standard layers will be loaded, i.e. background map, place names and contour lines. Afterwards layers with customized filter setting can be added individually.</div>"
+            }
+        }
+    },
+    "Koala.view.window.MetadataInfo": {
+        "config": {
+            "data": {
+                "name": "Koala"
+            }
+        },
+        "statics": {
+            "fieldNames": {
+                "fileIdentifier": "ID",
+                "abstract": "Abstract",
+                "contact": "Contact"
+            }
+        }
+    },
+    "Koala.view.window.Print": {
+        "config": {
+            "data": {
+                "title": "Print"
+            }
+        }
+    },
+    "Koala.view.window.TimeSeriesWindow": {
+        "config": {
+            "data": {
+                "autorefresh": "Autorefresh",
+                "autorefreshExpand": "Extend time window",
+                "autorefreshMove": "Move time window",
+                "autorefreshOptions": "Autorefresh options",
+                "chartPrint": "Dokpool ",
+                "title": "Time Series",
+                "dateFieldStartLabel": "Start",
+                "dateFieldEndLabel": "End",
+                "setFilterBtnText": "OK",
+                "resetFilterBtnText": "Reset",
+                "selectChartLayerComboLabel": "",
+                "selectChartLayerComboEmptyText": "en:Chart hinzufügen",
+                "undoBtnText": "…zoom back",
+                "exportAsImageBtnText": "Export as image",
+                "downloadChartDataMsgTitle": "Info",
+                "downloadChartDataMsgMessage": "Download current chart?",
+                "downloadChartDataMsgButtonYes": "Yes",
+                "downloadChartDataMsgButtonNo": "No",
+                "outputFormatText": "Output Format",
+                "removeSeriesBtnText": "Remove Series",
+                "removeSeriesQuestionTitle": "Request",
+                "removeSeriesQuestionTpl": "Remove series '{0}'?",
+                "startLabel": "Start",
+                "toggleDataBelowIdentificationThreshold": "Show data below < Id. Thresh.",
+                "endLabel": "End"
+            }
+        }
+    },
+    "Koala.view.window.HelpWindow": {
+        "config": {
+            "data": {
+                "helpWinTitle": "Help",
+                "fallbackHtml": "<img class='img' src='classic/resources/img/bfs-logo.png' title='BfS-Logo' alt='bfs-logo.png' width='100' height='39' style='float:right'>"+
+                        "<h2> Welcome </h2>"+
+                        "<div>The "+
+                        "<a href='http://www.bfs.de/EN/home/home_node.html' target='_blank'>Federal Office for Radiation Protection (BfS)</a>"+
+                        " provides with the "+
+                        "<a href='http://www.bfs.de/DE/themen/ion/umwelt/luft-boden/geoportal/geoportal.html' target='_blank'>BfS-Geoportal</a>"+
+                        " its own internet portal for the search and visualization of spatial data (geodata) and web services (geodata services). Measurement data from the BfS as well as data from federal agencies, federal state authorities and other public authorities are available. Most of the data comes from the \"Integrated Measuring and Information System for the Surveillance of Environmental Radioactivity\" "+
+                        "<a href='http://www.bfs.de/DE/themen/ion/notfallschutz/messnetz/imis/imis.html' target='_blank'>(IMIS)</a>"+
+                        ".</div>"+
+                        "<div>"+
+                        "<p>Over the past few years, the relevant legal provisions and requirements, such as the "+
+                        "<a href='http://www.gesetze-im-internet.de/geozg/' target='_blank'>German Geodata Access Act (GeoZG)</a>"+
+                        " that implements the "+
+                        "<a href='http://inspire.ec.europa.eu/' target='_blank'>European INSPIRE Directive</a>"+
+                        ", have contributed to significant advances in the technical development and "+
+                        "<a href='http://www.opengeospatial.org/standards' target='_blank'>standardization</a>"+
+                        " of search, visualization and download services with respect to the provision of geodata.</p>"+
+                        "<p>This has led to user-friendly access to the services provided by other sources. A central service is provided by "+
+                        "<a href='http://www.geoportal.de/EN/Geoportal/geoportal.html?lang=en' target='_blank'>Geoportal-Deutschland</a>"+
+                        ", but you can also use this GIS software provided by BfS.</p>"+
+                        "<p>BfS endeavours to constantly expand the availability of information beyond such standardized services.</p>"+
+                        "</div>"+
+                        "<div>This application cannot only be used to find the desired data and represent it geographically, but it is also aimed at analysing data according to the user’s individual requirements. The current representations of time series or bar charts are only the first steps. We intend to refine and expand the application’s functionalities in the future.</div>"+
+                        "<div>We are implementing a transparent information policy by providing the data as open data (cf. BfS Geoportal - Imprint/Terms of Use) and by developing our applications in the form of open source software "+
+                        "<a href='http://www.bfs.de/SharedDocs/Kurzmeldungen/BfS/EN/2017/0102-bfs-open-source.html' target='_blank'>(message by BfS)</a>"+
+                        ".</div>"+
+                        "<div>This development concept ensures an effective, non-profit use of resources.</div>"
+            }
+        }
+    },
+    "Koala.view.window.HelpModel": {
+        "config": {
+            "data": {
+                "preface":{
+                    "title": "Welcome",
+                    "html": "<img class='img' src='classic/resources/img/bfs-logo.png' title='BfS-Logo' alt='bfs-logo.png' width='100' height='39' style='float:right'>"+
+                            "<h2> Welcome </h2>"+
+                            "<div>The "+
+                            "<a href='http://www.bfs.de/EN/home/home_node.html' target='_blank'>Federal Office for Radiation Protection (BfS)</a>"+
+                            " provides with the "+
+                            "<a href='http://www.bfs.de/DE/themen/ion/umwelt/luft-boden/geoportal/geoportal.html' target='_blank'>BfS-Geoportal</a>"+
+                            " its own internet portal for the search and visualization of spatial data (geodata) and web services (geodata services). Measurement data from the BfS as well as data from federal agencies, federal state authorities and other public authorities are available. Most of the data comes from the \"Integrated Measuring and Information System for the Surveillance of Environmental Radioactivity\" "+
+                            "<a href='http://www.bfs.de/DE/themen/ion/notfallschutz/messnetz/imis/imis.html' target='_blank'>(IMIS)</a>"+
+                            ".</div>"+
+                            "<div>"+
+                            "<p>Over the past few years, the relevant legal provisions and requirements, such as the "+
+                            "<a href='http://www.gesetze-im-internet.de/geozg/' target='_blank'>German Geodata Access Act (GeoZG)</a>"+
+                            " that implements the "+
+                            "<a href='http://inspire.ec.europa.eu/' target='_blank'>European INSPIRE Directive</a>"+
+                            ", have contributed to significant advances in the technical development and "+
+                            "<a href='http://www.opengeospatial.org/standards' target='_blank'>standardization</a>"+
+                            " of search, visualization and download services with respect to the provision of geodata.</p>"+
+                            "<p>This has led to user-friendly access to the services provided by other sources. A central service is provided by "+
+                            "<a href='http://www.geoportal.de/EN/Geoportal/geoportal.html?lang=en' target='_blank'>Geoportal-Deutschland</a>"+
+                            ", but you can also use this GIS software provided by BfS.</p>"+
+                            "<p>BfS endeavours to constantly expand the availability of information beyond such standardized services.</p>"+
+                            "</div>"+
+                            "<div>This application cannot only be used to find the desired data and represent it geographically, but it is also aimed at analysing data according to the user’s individual requirements. The current representations of time series or bar charts are only the first steps. We intend to refine and expand the application’s functionalities in the future.</div>"+
+                            "<div>We are implementing a transparent information policy by providing the data as open data (cf. BfS Geoportal - Imprint/Terms of Use) and by developing our applications in the form of open source software "+
+                            "<a href='http://www.bfs.de/SharedDocs/Kurzmeldungen/BfS/EN/2017/0102-bfs-open-source.html' target='_blank'>(message by BfS)</a>"+
+                            ".</div>"+
+                            "<div>This development concept ensures an effective, non-profit use of resources.</div>"
+                        },
+                "quickRef":{
+                    "title": "Brief overview",
+                    "html": "<h2> Brief overview </h2>"+
+                            "<div>The following paragraphs briefly explain the functionalities provided by the application. For a more detailed explanation, please navigate the table of contents on the left-hand side and click on the item you are looking for.</div>"+
+                            "<h4>The surface of the application offers the following functionalities:</h4>"+
+                            "<ol>"+
+                                "<div><img class='img' src='classic/resources/img/helpPage/graphic_overview_en.png' title='Overview' alt='graphic_overview_en.png' style='max-height: 100%; max-width: 100%;'></div><br />"+
+                                "<li style='color:#294d71; font-weight:bold'>Layer profile selection</li>"+
+                                    "<div>This selection window enables you to load a predefined selection of data sets (i.e. layer sets) into the map. A layer set is composed of several layers that represent a common thematic level in the map. This window opens upon the initial loading of the page. It is not necessary to select a layer set in order to start the application. The layer sets/thematic sets are only a means of assistance to the user. They make it possible to load similar or related data sets with a single click. If you close the window without selecting a layer set, only the standard layers will be loaded, i.e. \"Place names\", \"Contour lines\" and \"Background map - OSM\".</div><br />"+
+                                "<li style='color:#294d71; font-weight:bold'>Map</li>"+
+                                    "<div>The map displays the selected data sets. Moving the <i>mouse</i> over a geometry will show you initial information on the object and its values. Click on a geometry to open a window that provides time series and/or value series in the form of a line chart or bar chart for further analysis. Please make sure that the relevant layer is selected in the legend.</div><br />"+
+                                "<li style='color:#294d71; font-weight:bold'>Tools</li>"+
+                                    "<div>The tool bar contains services for adding external data sources.</div><br />"+
+                                "<li style='color:#294d71; font-weight:bold'>Selection</li>"+
+                                    "<div>The \"Selection\" window makes it possible to load individual layers that will be shown in the map. The layers are grouped by subjects (layer sets). Please select the required subject via the folder structure. Click on \"Change Topic\" to open a window that allows you to choose a subject with the help of a graphical user interface.</div>"+
+                                    "<div>You can add layers by clicking once or twice (apply standard settings) on the layer name.</div><br />"+
+                                "<li style='color:#294d71; font-weight:bold'>Multi search bar</li>"+
+                                    "<div>The multi search bar makes it possible to search for spatial data (such as the name of a town or city) as well as for BfS data and services.</div><br />"+
+                                "<li style='color:#294d71; font-weight:bold'>Settings</li>"+
+                                    "<div>The following settings can be adjusted for the entire application:</div>"+
+                                "<ul>"+
+                                    "<li>Time Reference: Set the reference time either to local time (your computer's system time) or to UTC (Coordinated Universal Time)</li>"+
+                                    "<li>Help: Open the help pages in a separate window</li>"+
+                                    "<li>Imprint: Open the Legal Disclosure information and the Terms of Use in a separate window</li>"+
+                                    "<li>Select language: Change language into German (DE) or English (EN)</li>"+
+                                "</ul><br />"+
+                                "<li style='color:#294d71; font-weight:bold'>Navigation</li>"+
+                                    "<div>Allows you to enlarge or reduce the map view and to shift the map view to its original position (centre of Germany).</div>"+
+                                    "<div>Run the application in full screen mode.</div>"+
+                                    "<div>It is also possible to create a permalink of the map view. Use the lowest button in the navigation bar to open the legend.</div><br />"+
+                                "<li style='color:#294d71; font-weight:bold'>Legend</li>"+
+                                    "<div>The legend comprises the layers, i.e. the thematic contents that are shown in the map. It is possible to adjust the map view via this function.</div>"+
+                                    "<div>You can hide or show layers, completely delete layers or change layer-specific filter settings. It is also possible to change the mapping order by shifting the layers.</div><br />"+
+                                "<li style='color:#294d71; font-weight:bold'>Geographical overview</li>"+
+                                    "<div>The geographical overview allows you to navigate via an overview map. The scalebar serves as a reference with respect to the current view. As long as the mouse pointer is in the map, the geographical coordinates of the mouse pointer's current position are displayed to the right of the scalebar.</div><br />"+
+                            "</ol>"
+                },
+                "profileSelection": {
+                    "title": " 1. Layer profile selection",
+                    "html": "<h2> 1. Layer profile selection </h2>"+
+                            "<div>This selection window enables you to load a predefined selection of data sets (i.e. layer sets) into the map. A layer set is composed of several layers that represent a common thematic level in the map. This window opens upon the initial loading of the page. It is not necessary to select a layer set in order to start the application. The layer sets/thematic sets are only a means of assistance to the user. They make it possible to load similar or related data sets with a single click. If you close the window without selecting a layer set, only the standard layers will be loaded, i.e. \"Place names\", \"Contour lines\" and \"Background map - OSM\".</div>"+
+                            "<div>Enter a filter term to restrict the selection of profiles.</div><br />"+
+                            "<img class='img' src='classic/resources/img/helpPage/window_profileSelection.png' title='Layer profile selection' alt='window_profileSelection.png' style='max-height: 100%; max-width: 100%;'>"
+                },
+                "map": {
+                    "title": "2. Map",
+                    "html": "<h2> 2. Map </h2>"+
+                            "<div>The map displays the selected layers/data sets (please refer to Section <i>4. Selection</i> for details on adding layers). The layers \"Place names\", \"Contour lines\" and \"Background map - OSM\" are loaded by default. Moving the <i>mouse</i> over a geometry will show you initial information on the object and its values. The relevant geometry will be highlighted in colour and you can click on it. Click on a geometry to open a window that provides time series and/or value series in the form of a line chart or bar chart for further analysis. Please make sure that the relevant layer is selected in the legend.</div><br />",
+                    "overview": {
+                        "title": "2.1 Overview",
+                        "html": "<hr style='color:#294d71' />"+
+                                "<h2>2.1 Overview</h2>"+
+                                "<div>"+
+                                "<p>Within the map, you can navigate with the help of the <i>mouse</i>. Shift the map view by clicking and holding the left <i>mouse button</i> down. Double-click the <i>mouse</i> to zoom into the current position of the <i>mouse pointer</i>. If you wish to zoom into a particular map view, you can use a separate zoom window. To create a zoom window in the map, hold the Shift key "+
+                                "<img class='img' src='classic/resources/img/helpPage/key_shift.png' title='Shift key' alt='key_shift.png' width='16' height='18' style='vertical-align:middle'>"+
+                                " and click on the left <i>mouse button</i>.<br />"+
+                                "The <i>scroll wheel</i> can also be used to zoom in and out of the map, thus adjusting the map scale. Alternatively, you can control these functions via the navigation bar (please refer to <i>7. Navigation</i>).</div>"+
+                                "<div>You will find the copyright information for internal and external data in the bottom-right corner of the map view. Click on them to open a new tab in the browser showing the relevant information.</div><br />"+
+                                "<img class='img' src='classic/resources/img/helpPage/graphic_map.png' title='Map' alt='graphic_map.png' style='max-height: 100%; max-width: 100%;'><br />"
+                    },
+                    "geoObjects": {
+                        "title": "2.2 Retrieving information on BfS objects",
+                        "html": "<hr style='color:#294d71' />"+
+                                "<h2>2.2 Retrieving information on BfS objects</h2>"+
+                                "<div>"+
+                                "<p>If you wish to retrieve information on BfS objects, please make sure that the relevant layer is selected in the legend. Selected layers are labelled in turquoise (cf. Figure <i>2.2 Information on individual objects</i>).</p>"+
+                                "<p>You will obtain information on individual objects (such as the 1 h ambient dose rate at a particular location) by moving the <i>mouse pointer</i> over the relevant geometry (represented as dots in the example below). The selected object will be highlighted in colour and the relevant data will appear. Depending on the zoom level, you may have selected more than one geometry so that the relevant data is displayed for several objects. Zoom to the desired object in this case to obtain an unambiguous selection.</p>"+
+                                "<div style='font-size:11px'>"+
+                                "<img class='img' src='classic/resources/img/helpPage/graphic_hoverGeometry_en.png' title='Information on individual objects' alt'graphic_hoverGeometry_en.png' style='max-height: 100%; max-width: 100%;'><br>"+
+                                "<b>2.2 Information on individual objects</b>"+
+                                "</div><br />"+
+                                "<p>If data is available for a certain object, such data can be viewed in a diagram by clicking onto the relevant geometry. Time-related data will be shown in a line chart (such as ODL 1h), while value series (such as nuclides in mushrooms) will be shown in a bar chart.</p>"+
+                                "<p>Figure <i>2.2 Time series</i> shows time series for three different locations; here the 1h values of the ambient dose rate are visualized. Add locations at any time by clicking onto another object on the map or pressing the \"Add series\" "+
+                                "<img class='img' src='classic/resources/img/helpPage/selectionBox_addingSerial.png' title='Add series' alt='selectionBox_addingSerial.png' width='170' height='24' style='vertical-align:middle'>"+
+                                " button. This button allows you to search directly for a particular object by entering keywords. Alternatively, use the <i>arrow icon</i> to display all available series.<br>"+
+                                "You can adjust the line chart itself by interaction. Double-click the left <i>mouse button</i> within the diagram to enlarge a particular section. The x axis and y axis will be adjusted to the selected section. Shift the view within the diagram by holding the left <i>mouse button</i> down. You can zoom out of the diagram by using the \"...zoom back\" "+
+                                "<img class='img' src='classic/resources/img/helpPage/button_zoomBack_en.png' title='Zoom back' alt='button_zoomBack_en.png' width='92' height='24' style='vertical-align:middle'>"+
+                                " button. Alternatively, use the scroll wheel to control the zoom function.</p>"+
+                                "<p>Press the download icon "+
+                                "<img class='img' src='classic/resources/img/helpPage/button_saveTimeSeries.png' title='Download' alt='button_download.png' width='17' height='16' style='vertical-align:middle'>"+
+                                " to download individual time series. The series can be saved in JSON, CSV or GML format. Select the desired format and then confirm the download. The file will be saved in your browser’s download directory. Select the section that you wish to download from the diagram with the help of the zoom function.</p>"+
+                                "<p>Click on the diagram's legend to hide or show individual series, such as \"Helgoland / Unterland\" in the example below. It is also possible to delete an individual series completely from the diagram: Just click on the X button "+
+                                "<img class='img' src='classic/resources/img/helpPage/button_series_delete.png' title='Delete series' alt='button_series_delete.png' width='14' height='13' style='vertical-align:middle'>"+
+                                " next to the layer name.</p>"+
+                                "<p>If you wish to display an individual value within the diagram, move the <i>mouse pointer</i> over the desired position.</p>"+
+                                "<p>Enter a start date and end date above the line diagram to refine the mapping. Alternatively, you can select a date via the calendar icon "+
+                                "<img class='img' src='classic/resources/img/helpPage/button_calender.png' title='Calendar icon' alt='button_calender.png' width='18' height='17' style='vertical-align:middle'>"+
+                                ". Confirm your selection with the OK button "+
+                                "<img class='img' src='classic/resources/img/helpPage/button_ok.png' title='OK button' alt='button_ok.png' width='35' height='24' style='vertical-align:middle'>"+
+                                ". Use the \"Reset\" button "+
+                                "<img class='img' src='classic/resources/img/helpPage/button_reset.png' title='Reset button' alt='button_reset.png' width='51' height='24' style='vertical-align:middle'>"+
+                                " to return to the original time range. Click on the \"Add chart\" button "+
+                                "<img class='img' src='classic/resources/img/helpPage/selectionBox_addingChart.png' title='Add chart' alt='selectionBox_addingChart.png' width='162' height='24' style='vertical-align:middle'>"+
+                                " to display all the layers in the legend that can be added as a time series.</p>"+
+                                "<div style='font-size:11px'>"+
+                                "<img class='img' src='classic/resources/img/helpPage/graphic_timeSeries_en.png' title='Time series' alt'graphic_timeSeries_en.png' style='max-height: 100%; max-width: 100%;'><br>"+
+                                "<b>2.2 Time series</b>"+
+                                "</div><br />"+
+                                "<p>The bar charts representing value series are shown in Figure <i>2.2 Value series</i>. If you move the <i>mouse pointer</i> over a bar, the relevant value and unit will be shown in a separate window. As explained for the time series, it is possible to hide or show every series via the diagram’s legend (you can also delete individual series by using the X button "+
+                                "<img class='img' src='classic/resources/img/helpPage/button_series_delete.png' title='Delete series' alt='button_series_delete.png' width='14' height='13' style='vertical-align:middle'>"+
+                                "). The y axis will adjust to the relevant maximum value of the remaining series, unless the axis scaling for the layer has not been fixed. <i>Figure 2.2 Value series</i> shows how this function can be used for detailed analyses.</p>"+
+                                "<div style='font-size:11px'>"+
+                                "<img class='img' src='classic/resources/img/helpPage/graphic_barChart_en.png' title='Value series' alt'graphic_barChart_en.png' style='max-height: 100%; max-width: 100%;'><br>"+
+                                "<b>2.2 Value series</b>"+
+                                "</div>"+
+                                "</div>"
+                    }
+                },
+                "tools": {
+                    "title": "3. Tools",
+                    "html": "<h2>3. Tools</h2>"+
+                            "<div>The tool bar is in the top-left corner, just below the BfS logo. Click a button to open the relevant service. The services are explained in more detail in the following paragraphs (please navigate to the desired item on the left-hand side of the Help page menu).</div><br />",
+                    "wms": {
+                        "title": "3.1 WMS service",
+                        "html": "<hr style='color:#294d71' />"+
+                                "<h2>3.1 WMS Dienst <img class='img' src='classic/resources/img/helpPage/button_wms.png' title='WMS-Button' alt='button_wms.png' width='64' height='24' style='vertical-align:middle'> </h2>"+
+                                "<div>"+
+                                "<p>The WMS service makes it possible to add WMS layers within BfS Geoportal. You can thus perform analyses and/or representations on the basis of external geo data. "+
+                                "Please find more detailed information on the topic of Web Map Service at the following address: <a href='http://cite.opengeospatial.org/pub/cite/files/edu/wms/text/basic-index.html' target='_blank'>OGC Compliance Wiki - WMS</a></p>"+
+                                "<p>First you need to set the query parameters. Enter a valid query into the \"WMS-URL\" field or select a predefined URL.</p>"+
+                                "<p>Then press the \"Query Available Layer\" button "+
+                                "<img class='img' src='classic/resources/img/helpPage/button_getLayers.png' title='Query Available Layer' alt='button_getLayers.png' width='170' height='24' style='vertical-align:middle'>"+
+                                ". The results will be shown in the \"Available Layer\" field.</p>"+
+                                "<p>Check the boxes for the required layers so that they will be shown in the legend and thus also on the map. Confirm the selection with the \"Add Selected Layer\" button "+
+                                "<img class='img' src='classic/resources/img/helpPage/button_addLayers.png' title='Add Selected Layer' alt='button_addLayers.png' width='192' height='24' style='vertical-align:middle'>"+
+                                ". Initially, these layers will be positioned hierarchically at the top of the legend and thus mapped over all the other layers in the representation.</p>"+
+                                "<p>Figure <i>3.1 WMS service workflow</i> shows how the layer \"Topographic OSM WMS - by mundalis\" is added to the map.</p><br />"+
+                                "<div style='font-size:11px'>"+
+                                "<img class='img' src='classic/resources/img/helpPage/graphic_wms_workflow.png' title='WMS service workflow' alt='graphic_wms_workflow.png' style='max-height: 100%; max-width: 100%;'><br>"+
+                                "<b>3.1 WMS service workflow</b>"+
+                                "</div>"+
+                                "</div>"
+                        },
+                    "print": {
+                        "title": "en: 3.2 Druckdienst",
+                        "html": "<hr style='color:#294d71' />"+
+                                "<h2>3.2 Druckdienst <img class='img' src='classic/resources/img/helpPage/button_print.png' title='Print button' alt='button_print.png' width='103' height='27' style='vertical-align:middle'> </h2>"+
+                                "<div>"+
+                                "<p>Der Druckdienst ermöglicht es einen Kartenausschnitt in verschiedenen Formaten zu erstellen und abzuspeichern. Der Dienst ist in zwei Hauptkomponenten untergliedert. Einerseits werden allgemein gebräuchliche Standards wie BMP, GIF, PDF, PNG, TIF und TIFF, andererseits der Standard für den Austausch radiologischer Informationen <i>IRIX</i> zur Verfügung gestellt. Das Vorgehen zur Erstellung eines IRIX-Dokumentes wird im Anschluss unter entsprechender Überschrift erläutert.</p>"+
+                                "<p>Zunächst muss über das Auswahlmenü \"Printapp\" eine vordefinierte Ausschnittsgröße, beispielsweise <i>A4</i> gewählt werden. Dies stellt den Kartendruck nach DIN-Normen sicher. Im Anschluss erweitert sich das Fenster, um Karteneigenschaften und -inhalte einzustellen. Überdies ist ein blaues Fenster, das den Kartenausschnitt repräsentiert sichtbar. Nun können die Inhalte der Karte auf das Auswahlfenster angepasst werden (siehe Grafik <i>3.2 Arbeitsablauf des Druckdienstes</i>). Die Zoomstufe bestimmt letztlich den Kartenmaßstab. Beachten Sie, dass nur die Inhalte gedruckt werden die auf der Karte sichtbar sind.</p>"+
+                                "<p>In der Gruppe \"Einstellungen\" wird definiert ob eine vollständige Karte (Legende und Kartenausschnitt) oder nur die Legende bzw. nur ein Kartenausschnitt erzeugt werden soll. Des Weiteren kann der graphische Standard, mit dem der Kartendruck letztlich erzeugt werden soll, ausgewählt werden. Aktiviert man das Kontrollkästchen (aktiv: "+
+                                "<img class='img' src='classic/resources/img/helpPage/checkbox_true.png' title='Kontrollkästchen - aktiv' alt='checkbox_true.png' width='14' height='14' style='vertical-align:middle'>"+
+                                "; inaktiv: "+
+                                "<img class='img' src='classic/resources/img/helpPage/checkbox_false.png' title='Kontrollkästchen - inaktiv' alt='checkbox_false.png' width='13' height='13' style='vertical-align:middle'>"+
+                                ") links neben \"IRIX\" wird das Kartenausdruckfenster um IRIX-Druckdienste erweitert (siehe <i>IRIX - International Radiation Information eXchange</i>).</p>"+
+                                "<p>Die Gruppe der \"Eigenschaften\" stellt Funktionen der Darstellung bzw. Inhalte bereit. Die Kontrollkästchen von \"northArrow\" und \"scalebar\" legen fest ob ein Nordpfeil respektive Maßstabsleiste im Kartendruck dargestellt werden oder nicht.</p>"+
+                                "<p>Nachfolgende Felder bieten die Möglichkeit die Karte mit Informationen zu füllen. Folglich kann an dieser Stelle die Kartenzuordnung, Titel, Legende, Beschreibung, Kommentar, Impressum und Ersteller der Karte eingetragen werden. "+
+                                "Jeder Eintrag kann mit Standard-HTML Tags versehen werden um Schriftformate festzulegen. Diese Funktion, sowie die Einträge sind optional.</p>"+
+                                "<p>Mit Betätigen des Knopfs \"Dokument anfordern\" wird die gewünschte Datei erzeugt. Sobald dieser Prozess abgeschlossen ist erscheint der Knopf \"Dokument herunterladen\". Dieser ermöglicht das Speichern bzw. Betrachten der erzeugten Datei.</p>"+
+                                "<p>In Grafik <i>3.2 Arbeitsablauf des Druckdienstes</i> wird der Arbeitsablauf eines Kartendrucks mit Legende und Kartenausschnitt im PDF-Format dargestellt.</p>"+
+                                "<div style='font-size:11px'>"+
+                                "<img class='img' src='classic/resources/img/helpPage/graphic_print.png' title='Arbeitsablauf des Druckdienstes' alt='graphic_print.png' style='max-height: 100%; max-width: 100%;'><br>"+
+                                "<b>3.2 Arbeitsablauf des Druckdienstes</b>"+
+                                "</div><br />"+
+                                "<h3>IRIX - International Radiation Information eXchange</h3>"+
+                                "<br /><p><b>-TODO-</b></p>"+
+                                "</div>"
+                        },
+                    "import": {
+                        "title": "en: 3.3 Import",
+                        "html": "<hr style='color:#294d71' />"+
+                                "<h2>3.3 Import <img class='img' src='classic/resources/img/helpPage/button_import.png' title='Import-Button' alt='button_import.png' width='71' height='24' style='vertical-align:middle'> </h2>"+
+                                "<div>- TODO -</div>"
+                    }
+                },
+                "layerSelection": {
+                    "title": "4. Selection",
+                    "html":     "<h2>4. Selection</h2>"+
+                                "<div>"+
+                                "<p>Via the selection window it is possible to add layers to the map. You will find the selection window in the menu below the \"Tools\" panel. Initially, the window is closed. It can be opened by clicking onto the phrase \"Selection\" or onto the turquoise-coloured bar (cf. Figure <i>4. Layer selection workflow</i>).</p>"+
+                                "<p>The menu width can be adjusted. If you move the <i>mouse pointer</i> to the right-hand margin of the menu, the icon changes into a double-arrow "+
+                                "<img class='img' src='classic/resources/img/helpPage/mouse_resize.png' title='Resize' alt='mouse_resize.png' width='22' height='12' style='vertical-align:middle'>"+
+                                " and you can adjust the width by holding the left <i>mouse button</i> down.</p>"+
+                                "<p>Every layer is part of a layer set that reflects a technical classification. For example, if you wish to add the layer \"UV Index aktueller Tagesverlauf\" to the map, you will find it in the layer set \"miscellaneous\".</p>"+
+                                "<p>The selection window is structured like a common file system, including folders and files. The layer sets equate to folders, while the layers equate to files. If you wish to unfold a folder in order to view the layers contained therein, simply click on the plus icon to the left of the folder icon. Alternatively, you can double-click the folder name.</p>"+
+                                "<p>A single click onto the layer name will open a layer-specific window. Depending on the type of layer, the window may also include settings so that you can restrict the data with the help of a time filter and/or value filter. If a layer does not include any time or value filters, the window will only contain a button for adding the relevant layer (cf. Figure <i>4. Layer-specific window - layer without filter</i>).</p>"+
+                                "<div style='font-size:11px'>"+
+                                "<img class='img' src='classic/resources/img/helpPage/window_layerNoFilter.png' title='layer-specific window - layer without filter' alt'window_layerNoFilter.png' style='max-height: 100%; max-width: 100%;'><br>"+
+                                "<b>4. Layer-specific window - layer without filter</b>"+
+                                "</div><br />"+
+                                "<p>A double-click on the layer name will directly add the layer to the map. In this case, the standard settings will be used. Time-related layers will be adjusted to the most current data.</p>"+
+                                "<p>Figure <i>4. Layer selection workflow shows</i> how the gross ambient dose rate (determined in 1 hour intervals) is added. You can choose the final date for which the recorded data will be displayed. The date can be set either by entering the relevant date or by selecting a date in the calendar. Click onto the calendar icon "+
+                                "<img class='img' src='classic/resources/img/helpPage/button_calender.png' title='Calendar' alt='button_calender.png' width='18' height='17' style='vertical-align:middle'>"+
+                                " to open the calendar. For some layers, it is not only possible to choose a point in time but also to choose a period of time (e.g. \"nuclide in the soil\"). In these cases, a start date and/or end date will be available for configuration. The value filter corresponds to the measuring network and thus makes it possible to further refine the display of values. It is also possible to choose several filters by pressing the Shift key "+
+                                "<img class='img' src='classic/resources/img/helpPage/key_shift.png' title='Shift key' alt='key_shift.png' width='16' height='18' style='vertical-align:middle'>"+
+                                ". Click the \"Add Selected Layer\" button and the layer will be displayed on the map.</p>"+
+                                "<div style='font-size:11px'>"+
+                                "<img class='img' src='classic/resources/img/helpPage/graphic_layer_selection_en.png' title='Layer selection workflow' alt='graphic_layer_selection_en.png' style='max-height: 100%; max-width: 100%;'><br>"+
+                                "<b>4. Layer selection workflow</b>"+
+                                "</div><br />"+
+                                "<h3>Layer set selection</h3>"+
+                                "<p>In addition to the option of searching for layers via the selection window, it is also possible to search for layers via the layer set selection (cf. Figure <i>4. Layer set selection workflow</i>). Click onto \"Change Topic\" in the turquoise-coloured bar of the \"Selection\" window. This will open a window containing a selection of layer sets that are illustrated with an appropriate image. If you click on one of the subjects or the relevant image, the corresponding folder with the associated layers will open in the selection window. You can also add all corresponding layers to the legend by double-clicking onto the subject. In the lower part of the \"Layer Set Selection\" window you can restrict the selection of subjects by entering a filter term (search term). I the selection of layers was restricted, press the \"All Layer\" button "+
+                                "<img class='img' src='classic/resources/img/helpPage/button_allLayers_en.png' title='All layers' alt='button_allLayers_en.png' width='75' height='24' style='vertical-align:middle'>"+
+                                " to show all available layers.</p>"+
+                                "<p>Add a layer, as described above, by clicking once or twice (apply standard settings) on the layer name.</p>"+
+                                "<div style='font-size:11px'>"+
+                                "<img class='img' src='classic/resources/img/helpPage/graphic_layerSet_selection.png' title='Layer set selection workflow' alt='graphic_layerSet_selection.png' style='max-height: 100%; max-width: 100%;'><br>"+
+                                "<b>4. Layer set selection workflow</b>"+
+                                "</div><br />"+
+                                "</div>"
+                },
+                "searchField": {
+                    "title": "5. Multi search bar",
+                    "html":     "<h2>5. Multi search bar</h2>"+
+                                "<div>"+
+                                "<p>The multi search bar makes it possible to search for spatial data as well as for BfS data and services. Simply enter your text into the search field and the results will be shown separately in a window below the bar. Clicking onto the X icon "+
+                                "<img class='img' src='classic/resources/img/helpPage/button_search_delete.png' title='X icon: delete the entry' alt='button_search_delete.png' width='24' height='24' style='vertical-align:middle'>"+
+                                " on the right-hand side of the search field will delete the entry and close the result window.</p>"+
+                                "<h3>Spatial search</h3>"+
+                                "<p>You can search for locations via the multi search bar (cf. Figure <i>5. Spatial search</i>). The results will be constantly updated according to the entered text and thus do not require any further entries. If you have found the location you were looking for, simply click onto the name to zoom into the map.</p>"+
+                                "<div style='font-size:11px'>"+
+                                "<img class='img' src='classic/resources/img/helpPage/graphic_search_location.png' title='Spatial search' alt'graphic_search_location.png' style='max-height: 100%; max-width: 100%;'><br>"+
+                                "<b>5. Spatial search</b>"+
+                                "</div><br />"+
+                                "<h3>BfS data and services</h3>"+
+                                "<p>In addition to the spatial search, the application also searches for BfS data and services (cf. Figure <i>5. Data search</i>).</p>"+
+                                "<p>Further information can be found in the Metadata window. Click on the information icon "+
+                                "<img class='img' src='classic/resources/img/helpPage/button_search_info.png' title='Information icon' alt='button_search_info.png' width='15' height='15' style='vertical-align:middle'>"+
+                                " to open the Metadata window. Data and services that are associated with a button showing a map and a plus symbol "+
+                                "<img class='img' src='classic/resources/img/helpPage/button_search_addData.png' title='Button: add to the map' alt='button_search_addData.png' width='17' height='17' style='vertical-align:middle'>"+
+                                " can be added to the map with a single click.</p>"+
+                                "<div style='font-size:11px'>"+
+                                "<img class='img' src='classic/resources/img/helpPage/graphic_search_data.png' title='Data search' alt'graphic_search_data.png' style='max-height: 100%; max-width: 100%;'><br>"+
+                                "<b>5. Data search</b>"+
+                                "</div>"+
+                                "</div>"
+                },
+                "settings": {
+                    "title": "6. Settings",
+                    "html": "<h2>6. Settings</h2>"+
+                            "<div>You will find the BfS Geoportal settings in the top-right corner of the application. Clicking the relevant button will open or activate the corresponding function, which is explained in more detail in the following paragraphs. Please navigate to the desired item on the left-hand side of the Help page menu.</div><br />",
+                    "timeRef": {
+                        "title": "6.1 Time Reference",
+                        "html": "<hr style='color:#294d71' />"+
+                                "<h2>6.1 Time Reference <img class='img' src='classic/resources/img/helpPage/button_settings_timeRef_utc_en.png' title='Time reference button' alt='button_settings_timeRef_utc_en.png' width='142' height='24' style='vertical-align:middle'></h2>"+
+                                "<div>"+
+                                "<p>The default setting for the reference time is <i>Coordinated Universal Time - UTC</i>. Using a universal reference time is essential for international cooperation and/or the analysis of data over different time zones. Please remember, with respect to time-related data, to check the reference time settings.</p>"+
+                                "<p>Pressing the button \"Time Reference (UTC)\" will change the time shown at the client's to local time \"Time Reference (local)\" (cf. Figure <i>6.1 Time Reference</i>). This means that your computer’s system time will be used.</p>"+
+                                "<div style='font-size:11px'>"+
+                                "<img class='img' src='classic/resources/img/helpPage/graphic_timeRef_en.png' title='Time reference' alt'graphic_timeRef_en.png' style='max-height: 100%; max-width: 100%;'><br>"+
+                                "<b>6.1 Time Reference</b>"+
+                                "</div><br />"+
+                                "</div>"
+                        },
+                    "help": {
+                        "title": "6.2 Help",
+                        "html": "<hr style='color:#294d71' />"+
+                                "<h2>6.2 Help <img class='img' src='classic/resources/img/helpPage/button_settings_help_en.png' title='Help button' alt='button_settings_help_en.png' width='43' height='24' style='vertical-align:middle'></h2>"+
+                                "<div>"+
+                                "<p>The \"Help\" button opens the Help window. In the Help window you will find a detailed description of the functionalities provided by BfS Geoportal.</p>"+
+                                "</div>"
+                        },
+                    "imprint": {
+                        "title": "6.3 Imprint",
+                        "html": "<hr style='color:#294d71' />"+
+                                "<h2>6.3 Imprint <img class='img' src='classic/resources/img/helpPage/button_settings_imprint_en.png' title='Imprint button' alt='button_settings_imprint_en.png' width='58' height='24' style='vertical-align:middle'></h2>"+
+                                "<div>"+
+                                "<p>Use this button to open the Legal Disclosure information and the Terms of Use.</p>"+
+                                "</div>"
+                        },
+                    "language": {
+                        "title": "6.4 Language",
+                        "html": "<hr style='color:#294d71' />"+
+                                "<h2>6.4 Language <img class='img' src='classic/resources/img/helpPage/button_settings_language.png' title='Language button' alt='button_settings_language.png' width='107' height='24' style='vertical-align:middle'></h2>"+
+                                "<div>"+
+                                "<p>The Language selection menu controls the language used in the entire application. You can choose your language by clicking the referenced symbol. Clicking onto the downward arrow will open the selection menu showing the available languages. \"DE\" means German, \"EN\" means English.</p>"+
+                                "<img class='img' src='classic/resources/img/helpPage/button_settings_language_all.png' title='Language' alt'button_settings_language_all.png' style='max-height: 100%; max-width: 100%;'>"+
+                                "</div>"
+                        }
+                },
+                "mapNavigation":{
+                    "title": "7. Navigation",
+                    "html": "<h2>7. Navigation</h2>"+
+                            "<div>The Navigation menu provides functions relating to the map view. The buttons are positioned on the right-hand side of the application. Clicking the relevant button will activate the corresponding function, which is explained in more detail in the following paragraphs. Please navigate to the desired item on the left-hand side of the Help page menu.</div><br />",
+                    "zoomIn": {
+                        "title": "7.1 Zoom in",
+                        "html": "<hr style='color:#294d71' />"+
+                                "<h2>7.1 Zoom in <img class='img' src='classic/resources/img/helpPage/button_zoomIn.png' title='Zoom in button' alt='button_zoomIn.png' width='28' height='28' style='vertical-align:middle'></h2>"+
+                                "<div>"+
+                                "<p>This button zooms into the map using a predefined zoom level. As a result, the map scale of the current view becomes larger. Alternatively, you can double-click the <i>mouse</i> within the map view or use the scroll wheel to zoom into the map.</p>"+
+                                "<p>If you wish to zoom into a particular map view, you can use a separate zoom window. To create a zoom window in the map, hold the Shift key "+
+                                "<img class='img' src='classic/resources/img/helpPage/key_shift.png' title='Shift key' alt='key_shift.png' width='16' height='18' style='vertical-align:middle'>"+
+                                " and click on the left <i>mouse button</i>.</p>"+
+                                "</div>"
+                        },
+                    "zoomOut": {
+                        "title": "7.2 Zoom out",
+                        "html": "<hr style='color:#294d71' />"+
+                                "<h2>7.2 Zoom out <img class='img' src='classic/resources/img/helpPage/button_zoomOut.png' title='Zoom out button' alt='button_zoomOut.png' width='28' height='28' style='vertical-align:middle'></h2>"+
+                                "<div>"+
+                                "<p>This button zooms out of the map using a predefined zoom level. As a result, the map scale of the current view becomes smaller. Alternatively, you can use the <i>scroll wheel</i> to zoom out of the map.</p>"+
+                                "</div>"
+                        },
+                    "initMapView": {
+                        "title": "7.3 Initial map view",
+                        "html": "<hr style='color:#294d71' />"+
+                                "<h2>7.3 Initial map view <img class='img' src='classic/resources/img/helpPage/button_initMapView.png' title='Initial map view' alt='button_initMapView.png' width='28' height='28' style='vertical-align:middle'></h2>"+
+                                "<div>"+
+                                "<p>Click on this button to show the initial map view (zoom level and position). Germany is shown at the centre of the map view.</p>"+
+                                "</div>"
+                        },
+                    "fullScreen": {
+                        "title": "7.4 Full screen",
+                        "html": "<hr style='color:#294d71' />"+
+                                "<h2>7.4 Full screen <img class='img' src='classic/resources/img/helpPage/button_fullScreen.png' title='Full screen' alt='button_fullScreen.png' width='28' height='28' style='vertical-align:middle'></h2>"+
+                                "<div>"+
+                                "<p>Click on the \"Full Screen\" button to enlarge the view so that the BfS Geoportal application uses the full screen. Depending on the browser you use, you may be required to confirm the full screen mode.</p>"+
+                                "<p>Click the <b>Esc key</b> to cancel the full screen mode.</p>"+
+                                "</div>"
+                        },
+                    "permaLink": {
+                        "title": "7.5 Permalink",
+                        "html": "<hr style='color:#294d71' />"+
+                                "<h2>7.5 Permalink <img class='img' src='classic/resources/img/helpPage/button_permaLink.png' title='Permalink button' alt='button_permaLink.png' width='28' height='28' style='vertical-align:middle'></h2>"+
+                                "<div>"+
+                                "<p>A permalink is a hyperlink permanently referencing the contents of a webpage. It contains map view information (zoom level and position) as well as additionally loaded contents (layers with filter settings).</p>"+
+                                "<p>A permalink thus makes it possible to save a particular map view for future access. Choose the required map view and press the Permalink button. If the Permalink window is already open, press \"Refresh\" to display the permalink corresponding to the current map view. The \"Copy to Clipboard\" button saves the permalink temporarily so that you can paste the link where desired.</p>"+
+                                "</div>"
+                        },
+                    "openLegend": {
+                        "title": "7.6 Open legend",
+                        "html": "<hr style='color:#294d71' />"+
+                                "<h2>7.6 Open legend <img class='img' src='classic/resources/img/helpPage/button_openLegend.png' title='Open legend' alt='button_openLegend.png' width='28' height='28' style='vertical-align:middle'></h2>"+
+                                "<div>"+
+                                "<p>This button opens or closes the legend displayed in the bottom-right corner of BfS Geoportal. The legend comprises all layers that are immediately available for representation. Alternatively, you can directly click on the legend (blue bar labelled \"Legend\").</p>"+
+                                "</div>"
+                        }
+                },
+                "legend":{
+                    "title": "8. Legend",
+                    "html": "<h2>8. Legend</h2>"+
+                            "<div>"+
+                            "<p>The legend comprises all layers that are loaded into the map view. Please refer to Section <i>4. Selection</i> for more information on adding layers. To open the legend, either use the button "+
+                            "<img class='img' src='classic/resources/img/helpPage/button_openLegend.png' title='Open legend' alt='button_openLegend.png' width='28' height='28' style='vertical-align:middle'>"+
+                            " or click directly onto the blue bar labelled \"Legend\".</p>"+
+                            "<p>The legend width can be adjusted. If you move the mouse pointer to the left-hand margin of the legend, the icon changes into a double-arrow "+
+                            "<img class='img' src='classic/resources/img/helpPage/mouse_resize.png' title='mouse pointer resize' alt='mouse_resize.png' width='22' height='12' style='vertical-align:middle'>"+
+                            ". Hold the left <i>mouse button</i> down to adjust the width.</p>"+
+                            "<p>As mentioned above in Section <i>2.2 Retrieving information on individual objects</i>, please ensure that the relevant layer is selected for retrieving information on the desired geometries. Selected layers are labelled in turquoise in the legend (cf. Figure <i>8. Legend - Shifting a layer</i>). The checkbox to the left of the layer name governs whether a layer is shown on the map (checkbox checked "+
+                            "<img class='img' src='classic/resources/img/helpPage/checkbox_true.png' title='checkbox checked' alt='checkbox_true.png' width='14' height='14' style='vertical-align:middle'>"+
+                            " ) or not (checkbox unchecked "+
+                            "<img class='img' src='classic/resources/img/helpPage/checkbox_false.png' title='checkbox unchecked' alt='checkbox_false.png' width='13' height='13' style='vertical-align:middle'>"+
+                            " ).</p>"+
+                            "<p>The layer sequence defines the mapping hierarchy. Thus, the topmost layer will be mapped over the following layers. You can change the layer sequence by holding the left <i>mouse button</i> down and moving a selected layer to the required position.</p>"+
+                            "<div style='font-size:11px'>"+
+                            "<img class='img' src='classic/resources/img/helpPage/graphic_legend_en.png' title='Legend - Shifting a layer' alt'graphic_legend_en.png' style='max-height: 100%; max-width: 100%;'><br>"+
+                            "<b>8. Legend - Shifting a layer</b>"+
+                            "</div><br />"+
+                            "<p>Click on the plus icon "+
+                            "<img class='img' src='classic/resources/img/helpPage/button_collapse_up.png' title='show or hide layer information' alt='button_collapse_up.png' width='11' height='11' style='vertical-align:middle'>"+
+                            " to the left of the layer name to show or hide the key to the symbols used in a layer. The window for each layer does not only comprise a description of that layer but also buttons for retrieving metadata "+
+                            "<img class='img' src='classic/resources/img/helpPage/button_info.png' title='Metadata button' alt='button_info.png' width='24' height='24' style='vertical-align:middle'>"+
+                            ", saving the layer "+
+                            "<img class='img' src='classic/resources/img/helpPage/button_save.png' title='Saving a layer' alt='button_save.png' width='24' height='24' style='vertical-align:middle'>"+
+                            " and deleting the layer from the map view "+
+                            "<img class='img' src='classic/resources/img/helpPage/button_delete.png' title='Deleting a layer' alt='button_delete.png' width='24' height='24' style='vertical-align:middle'>"+
+                            " as well as a slide bar to control the layer’s transparency "+
+                            "<img class='img' src='classic/resources/img/helpPage/slider_transparent.png' title='Slide bar - layer transparency' alt='slider_transparent.png' width='100' height='15' style='vertical-align:middle'>"+
+                            ". If filter settings are provided for a layer, the window also comprises a button for changing the filter properties "+
+                            "<img class='img' src='classic/resources/img/helpPage/button_openFilter.png' title='Filter properties' alt='button_openFilter.png' width='24' height='24' style='vertical-align:middle'>"+
+                            ". The metadata window contains information on the layer ID, name, source, service type and layer type. If you wish to save a layer, press the save button and confirm the download. Deleting a layer will remove the object from the legend and thus from the map. This must also be confirmed in the info window that appears.</p>"+
+                            "<p>The buttons shown at the bottom of the legend relate to all layers within the legend. You can thus show "+
+                            "<img class='img' src='classic/resources/img/helpPage/button_collapseAll_down.png' title='Show all details' alt='button_collapseAll_down.png' width='24' height='24' style='vertical-align:middle'>"+
+                            " or hide "+
+                            "<img class='img' src='classic/resources/img/helpPage/button_collapseAll_up.png' title='Hide all details' alt='button_collapseAll_up.png' width='24' height='24' style='vertical-align:middle'>"+
+                            " all details relating to the layers in the legend with a single click. A click on the dustbin icon "+
+                            "<img class='img' src='classic/resources/img/helpPage/button_rubbishBin.png' title='Delete all layers' alt='button_rubbishBin.png' width='24' height='24' style='vertical-align:middle'>"+
+                            " will delete all layers, except the standard layers, from the legend and thus from the map.</p>"+
+                            "</div>"
+                },
+                "geographicOverview":{
+                    "title": "9. Geographical overview",
+                    "html": "<h2>9. Geographical overview</h2>"+
+                            "<div>"+
+                            "<p>The geographical overview comprises an overview map and a scalebar. Open the overview map by clicking on the globe icon "+
+                            "<img class='img' src='classic/resources/img/helpPage/button_overviewMap.png' title='Overview map button' alt='button_overviewMap.png' width='28' height='28' style='vertical-align:middle'>"+
+                            ". This map provides an overview of the current map view on a smaller scale. The blue window in the overview map represents the section of the current view. A click on the desired region will shift the view so that it is centred at this location (cf. Figure <i>9. Overview map</i>).</p>"+
+                            "<div style='font-size:11px'>"+
+                            "<img class='img' src='classic/resources/img/helpPage/graphic_overviewMap.png' title='Overview map' alt='graphic_overviewMap.png' style='max-height: 100%; max-width: 100%;'><br>"+
+                            "<b>9. Overview map</b>"+
+                            "</div><br />"+
+                            "<p>The scalebar "+
+                            "<img class='img' src='classic/resources/img/helpPage/info_scaleBar.png' title='Scalebar' alt='info_scaleBar.png' width='99' height='13' style='vertical-align:middle'>"+
+                            " serves as a reference to the current map scale. It thus helps to compare the current view. The scalebar varies by length according to the zoom level. It shows the length in metres (m) or kilometres (km).</p>"+
+                            "<p>As long as the mouse pointer is in the map, the geographical coordinates of the <i>mouse pointer's</i> current position are displayed to the right of the scalebar.</p>"+
+                            "</div>"
+                },
+                "softwareVersion": {
+                    "title": "Software version",
+                    "html": "Software version could not be obtained dynamically."
+                }
+            }
+        }
+    },
+    "Koala.view.window.ImprintWindow": {
+        "config": {
+            "data": {
+                "imprintWinTitle": "Imprint"
+            }
+        }
+    },
+    "BasiGX.view.button.AddWms": {
+        "config": {
+            "data": {
+                "tooltip": "Add WMS...",
+                "text": "WMS"
+            }
+        }
+    },
+    "BasiGX.view.form.AddWms": {
+        "config": {
+            "data": {
+                "queryParamsFieldSetTitle": "Query parameters",
+                "wmsUrlTextFieldLabel": "WMS-URL",
+                "wmsVersionContainerFieldLabel": "Version",
+                "availableLayesFieldSetTitle": "Available layers",
+                "resetBtnText": "Reset",
+                "requestLayersBtnText": "Query for available layers",
+                "checkAllLayersBtnText": "Select all",
+                "uncheckAllLayersBtnText": "Select none",
+                "addCheckedLayersBtnText": "Add selected layers",
+                "errorIncompatibleWMS": "The queried WMS is not compatible to the application",
+                "errorRequestFailed": "Failed to retrieve entered URL",
+                "errorCouldntParseResponse": "Failed to parse the response",
+                "msgRequestTimedOut": "The response was not delivered in time and the request has been aborted",
+                "msgServiceException": "An OGC ServiceException occured",
+                "msgCorsMisconfiguration": "HTTP access control (CORS) at the target server probably misconfigured",
+                "msgUnauthorized": "The client is not authorized",
+                "msgForbidden": "The client does not have access to the resource",
+                "msgFileNotFound": "The resource could not be found",
+                "msgTooManyRequests": "The client has sent too many requests",
+                "msgServiceUnavailable": "The service is not available",
+                "msgGatewayTimeOut": "The server was acting as a gateway and the upstream server was too slow sending a response",
+                "msgClientError": "An unspecified client error occured",
+                "msgServerError": "An unspecified server error occured"
+            }
+        }
+    },
+    "BasiGX.view.form.Print": {
+        "config": {
+            "data": {
+                "title": "en:Drucken",
+                "labelDpi": "en:DPI",
+                "printButtonSuffix": "en:anfordern",
+                "downloadButtonPrefix": "en:Download",
+                "printFormat": "en:pdf",
+                "printAppFieldSetTitle": "en:Vorlage",
+                "genericFieldSetTitle": "en:Einstellungen",
+                "formatComboLabel": "en:Format",
+                "layoutComboLabel": "en:Layout",
+                "attributesTitle": "en:Eigenschaften",
+                "mapTitleLabel": "en:Kartentitel"
+            }
+        }
+    },
+    "Koala.view.form.IrixFieldSet": {
+        "config": {
+            "data": {
+                "DokpoolBehaviour_label": "en:Dokpool Verhalten",
+                "DokpoolMeta_label": "en:Dokpool Metadaten",
+                "Identification_label": "en:allg. Informationen",
+                "ElanScenarios_label": "Elan Incidences",
+                "DokpoolBehaviour_Elan_label": "Elan",
+                "DokpoolBehaviour_Doksys_label": "Doksys",
+                "DokpoolBehaviour_Rodos_label": "Rodos",
+                "DokpoolBehaviour_Rei_label": "Rei",
+                "Permalink_text": "en:Darstellung im GIS anzeigen"
+            }
+        }
+    },
+    "BasiGX.view.panel.MapContainer": {
+        "config": {
+            "data": {
+                "titleLegendPanel": "Legend"
+            }
+        }
+    },
+    "BasiGX.view.panel.Menu": {
+        "config": {
+            "data": {
+                "closedMenuTitle": "Close Menu",
+                "openedMenuTitle": "Show Menu"
+            }
+        }
+    },
+
+
+    "Koala.view.form.TimeseriesFilterControl": {
+        "config": {
+            "data": {
+                "labelStartDate": "Start Date",
+                "labelEndDate": "End Date",
+                "setFilterButtonText": "Apply",
+                "invalidInputErrMsg": "Filter cannot be assigned. Please verify your inputs."
+            }
+        }
+    },
+    "Koala.view.panel.BarChart":{
+        "config": {
+            "data": {
+                "panelTitleText": "Bar Chart"
+            }
+        }
+    },
+    "Koala.view.panel.MobileLegend": {
+        "config": {
+            "data": {
+                "title": "Legend",
+                "maxLayersMsgBoxTitle": "Hint",
+                "maxLayersMsgBoxMessage": "Only {0} parallel WMS layer permitted. Please disable at least one layer before proceeding.",
+                "maxLayersMsgBoxBtnText": "OK",
+                "removeLayerMsgBoxTitle": "Info",
+                "removeLayerMsgBoxMessage": "Remove layer <b>{0}</b> from map?",
+                "removeLayerMsgBoxYesBtnText": "Yes",
+                "removeLayerMsgBoxNoBtnText": "No"
+            }
+        }
+    },
+    "Koala.view.panel.MobileMenu": {
+        "config": {
+            "data": {
+                "menuTitle": "Menu",
+                "searchFieldPlaceHolderText": "Search within data and services",
+                "helpButtonText": "Help",
+                "imprintButtonText": "Imprint",
+                "settingsButtonText": "Settings",
+                "moreLayersButtonText": "Selection",
+                "addLayerButtonText": "Add external WMS",
+                "permalinkButtonText": "Permalink",
+                "spatialSearchTitle": "Spatial search",
+                "metadataSearchTitle": "BfS data and services"
+            }
+        }
+    },
+    "Koala.view.panel.MobileMetadataInfo": {
+        "config": {
+            "data": {
+                "name": "Koala"
+            }
+        },
+        "statics": {
+            "fieldNames": {
+                "fileIdentifier": "en:ID",
+                "abstract": "Abstract",
+                "contact": "Contact"
+            }
+        }
+    },
+    "Koala.view.panel.MobilePermalink": {
+        "config": {
+            "data": {
+                "title": "Permalink"
+            }
+        }
+    },
+    "Koala.view.panel.LayerSetTree": {
+        "config": {
+            "data": {
+                "panelTitleText": "Choice of Topic"
+            }
+        }
+    },
+    "Koala.view.panel.Settings": {
+        "config": {
+            "data": {
+                "title": "Settings",
+                "timereferenceLabel": "Time Reference",
+                "utcLabel": "UTC",
+                "localLabel": "local",
+                "languageSelectComboLabel": "Language"
+            }
+        }
+    },
+    "Koala.view.panel.TimeseriesChart":{
+        "config": {
+            "data": {
+                "panelTitleText": "Time Series"
+            }
+        }
+    },
+    "Koala.view.form.LayerFilter": {
+        "config": {
+            "data": {
+                "startLabel": "Start",
+                "endLabel": "End",
+                "timestampLabel": "Point in Time",
+                "buttonText": "Add Selected Layer",
+                "buttonTextNoFilter": "Add Selected Layer",
+                "buttonTextChangeFilter": "Apply Filter to Layer",
+                "minDateWarnMsg": "Date of this text field must be after {0}.",
+                "maxDateWarnMsg": "Date of this text field must be before {0}.",
+                "warnMsgDateFormat": "d.m.Y",
+                "refreshAutomatically": "Refresh automatically",
+                "refreshInterval": "Refresh interval",
+                "minute": "1 minute",
+                "minutes": "{0} minutes"
+            }
+        }
+    },
+    "Koala.view.form.Permalink": {
+        "config": {
+            "data": {
+                "refreshBtnText": "Refresh",
+                "copyToClipboardBtnText": "Copy to clipboard"
+            }
+        }
+    },
+    "Koala.view.container.date.DateTimePicker": {
+        "config": {
+            "data": {
+                "minDateWarnMsg": "Date of this text field must be after {0}.",
+                "maxDateWarnMsg": "Date of this text field must be before {0}.",
+                "warnMsgDateFormat": "d.m.Y",
+                "endBeforeStartWarnMsg": "The start value must be before the end value.",
+                "exceedsMaxDurationWarnMsg": "Start value and end value are too far apart."
+            }
+        }
+    },
+    "Koala.view.panel.MobileHelp": {
+        "config": {
+            "data": {
+                "title": "Help",
+                "helpPrefaceTitle": "<img class='img' src='classic/resources/img/bfs-logo.png' title='BfS-Logo' alt='bfs-logo.png' width='100' height='39' style='float:right'><br /><h1 style='font-weight:bold; font-size:16px; color:black'>Welcome</h1>",
+                "helpPrefaceHtml":
+                    "<div>The "+
+                    "<a href='http://www.bfs.de/EN/home/home_node.html' target='_blank'>Federal Office for Radiation Protection (BfS)</a>"+
+                    " provides with the "+
+                    "<a href='http://www.bfs.de/DE/themen/ion/umwelt/luft-boden/geoportal/geoportal.html' target='_blank'>BfS-Geoportal</a>"+
+                    " its own internet portal for the search and visualization of spatial data (geodata) and web services (geodata services). Measurement data from the BfS as well as data from federal agencies, federal state authorities and other public authorities are available. Most of the data comes from the \"Integrated Measuring and Information System for the Surveillance of Environmental Radioactivity\" "+
+                    "<a href='http://www.bfs.de/DE/themen/ion/notfallschutz/messnetz/imis/imis.html' target='_blank'>(IMIS)</a>"+
+                    ".</div>"+
+                    "<div>"+
+                    "<p>Over the past few years, the relevant legal provisions and requirements, such as the "+
+                    "<a href='http://www.gesetze-im-internet.de/geozg/' target='_blank'>German Geodata Access Act (GeoZG)</a>"+
+                    " that implements the "+
+                    "<a href='http://inspire.ec.europa.eu/' target='_blank'>European INSPIRE Directive</a>"+
+                    ", have contributed to significant advances in the technical development and "+
+                    "<a href='http://www.opengeospatial.org/standards' target='_blank'>standardization</a>"+
+                    " of search, visualization and download services with respect to the provision of geodata.</p>"+
+                    "<p>This has led to user-friendly access to the services provided by other sources. A central service is provided by "+
+                    "<a href='http://www.geoportal.de/EN/Geoportal/geoportal.html?lang=en' target='_blank'>Geoportal-Deutschland</a>"+
+                    ", but you can also use this GIS software provided by BfS.</p>"+
+                    "<p>BfS endeavours to constantly expand the availability of information beyond such standardized services.</p>"+
+                    "</div>"+
+                    "<div>This application cannot only be used to find the desired data and represent it geographically, but it is also aimed at analysing data according to the user’s individual requirements. The current representations of time series or bar charts are only the first steps. We intend to refine and expand the application’s functionalities in the future.</div>"+
+                    "<div>We are implementing a transparent information policy by providing the data as open data (cf. BfS Geoportal - Imprint/Nutzungsbedingungen) and by developing our applications in the form of open source software "+
+                    "<a href='http://www.bfs.de/SharedDocs/Kurzmeldungen/BfS/EN/2017/0102-bfs-open-source.html' target='_blank'>(message by BfS)</a>"+
+                    ".</div>"+
+                    "<div>This development concept ensures an effective, non-profit use of resources.</div>",
+                "helpQuickRefTitle": "<h1 style='font-weight:bold; font-size:16px; color:black'>Brief overview</h1>",
+                "helpQuickRefHtml": "<div><img class='img' src='modern/resources/img/helpPage/mobile_graphic_overview_en.png' title='Overview' alt='mobile_graphic_overview_en.png' style='max-height: 100%; max-width: 100%;'></div><br />"+
+                            "<ol>"+
+                            "<li style='color:#294d71; font-weight:bold'>Map</li>"+
+                                "<div>The map displays the selected layers/data sets. You can use finger gestures or the navigation bar at the top-right corner of the screen to navigate in the map. Tap on the relevant geometry (measurement point) in the map to open a separate tab that displays the timelines and/or value series referring to this measurement point. Please ensure that the diagram icon for the relevant layer is activated in the legend (active: "+
+                                "<img class='img' src='modern/resources/img/helpPage/mobile_legend_chart_on.png' title='Active chart' alt='mobile_legend_chart_on.png' width='20' height='15' style='vertical-align:middle'>"+
+                                ", inactive: "+
+                                "<img class='img' src='modern/resources/img/helpPage/mobile_legend_chart_off.png' title='Inactive chart' alt='mobile_legend_chart_off.png' width='20' height='15' style='vertical-align:middle'>"+
+                                ").</div><br />"+
+                            "<li style='color:#294d71; font-weight:bold'>Menu</li>"+
+                                "<div>Via the menu, it is possible to add individual layers to the map (\"Selection\" button). It is also possible to load data from external sources into the map (\"Add external WMS\"). Search for locations and/or BfS data and services by entering a search term into the search field. The Permalink button allows you to save a particular map view for future access. You can define the language and the reference time used in the application via the menu item \"Settings\". You will also find separate buttons to open the Help pages or the Legal Disclosure information.</div><br />"+
+                            "<li style='color:#294d71; font-weight:bold'>Navigation</li>"+
+                                "<div>Allows you to enlarge or reduce the map view and to shift the map view to its original position (centre of Germany). Alternatively, you can use finger gestures to zoom in or out.</div>"+
+                                "<div>A tap on the lowest button (two arrows) will enlarge the view so that the application uses the full screen of your device (if your mobile browser supports full screen mode).</div><br />"+
+                            "<li style='color:#294d71; font-weight:bold'>Legend</li>"+
+                                "<div>The legend explains the symbols used in the layers.</div>"+
+                                "<div>It is also possible to change the settings for the layer presentation. Via the legend, you can hide or show or even completely delete individual layers. You can activate or deactivate the layer query in the legend and you can change the filter settings. It is also possible to change the mapping order of the layers with the help of the arrow buttons.</div><br />"+
+                            "</ol>",
+                "helpMapTitle": "<h1 style='font-weight:bold; font-size:16px; color:black'>1. Map</h1>",
+                "helpMapHtml": "<div>The map displays the selected layers/data sets (please refer to Section <i>2.2 Selection</i> for details on adding layers). The layers \"Place names\", \"Contour lines\" and \"Background map - OSM\" are loaded by default. Tap into the map to open a temporary window that displays the geographical coordinates of the selected position.</div><br />"+
+                               "<div> If measurement data is available for a layer, tap on the data point / a measuring station to display the relevant measurement data in the form of a line graph or bar graph. The diagram icon must be activated in the legend "+
+                               "<img class='img' src='modern/resources/img/helpPage/mobile_legend_chart_on.png' title='Active chart' alt='mobile_legend_chart_on.png' width='20' height='15' style='vertical-align:middle'>"+
+                               " to enable this function. For more detailed information with respect to legend settings please refer to Section <i>4. Legend</i>.</div><br />"+
+                               "<div>As illustrated in the example for layer \"ODL 1h\" (cf. <i>1. Workflow show timeseries</i>), touching a location will open a new tab that displays the values for a specified period of time. For a better presentation of line graphs and bar graphs, hold the device (smartphone or tablet) horizontally (please ensure that the Auto-rotate function is activated).</div><br />"+
+                               "<div><img class='img' src='modern/resources/img/helpPage/mobile_graphic_timeSeries.png' title='Workflow show timeseries' alt='mobile_graphic_timeSeries.png' style='max-height: 100%; max-width: 100%;'><br>"+
+                               "<b>1. Workflow show timeseries</b></div><br />"+
+                               "<div>Within a line diagram, you can use the <i>2-fingers zoom</i> to zoom in or out of the diagram or drag to shift the view (similar to navigating in the map). Touch an individual measurement point to retrieve more detailed information. Touch the layer name to hide or show a timeline. Use the X button "+
+                               "<img class='img' src='modern/resources/img/helpPage/mobile_legend_delete.png' title='Delete timeseries' alt='mobile_legend_delete.png' width='13' height='12' style='vertical-align:middle'>"+
+                               " to delete a timeline completely from the diagram. If you wish to add a timeline to the diagram, just select another data point / measuring station within the map.</div><br />"+
+                               "<div>The application does not only display timelines but also bar graphs. Touch a bar to retrieve more detailed information. The diagram always adjusts to the highest value. It is thus possible to adjust the diagram by hiding individual values.</div><br />"+
+                               "<div>Within the map, you can use finger gestures or the navigation bar to shift the map view or to zoom in or out (cf. <i>3. Navigation</i>).</div><br />"+
+                               "<div>You will find the copyright information for internal and external data in the bottom-left corner of the map view. Touch it to open a new tab in the browser showing the relevant information.</div><br />"+
+                               "<div>The scalebar is displayed in the bottom-right corner of the map. The scalebar serves as a reference to the current map scale. It thus helps to compare the current view. The scalebar varies by length according to the zoom level. It shows the length in metres (m) or kilometres (km).</div><br />",
+                "helpMenuTitle": "<h1 style='font-weight:bold; font-size:16px; color:black'>2. Menu <img class='img' src='modern/resources/img/helpPage/mobile_button_menu.png' title='Open menu' alt='mobile_button_menu.png' width='37' height='33' style='vertical-align:middle'></h1>",
+                "helpMenuHtml": "<div>Via the menu, it is possible to add individual layers to the map (\"Selection\" button). It is also possible to load data from external sources into the map (\"Add external WMS\"). Search for locations and/or BfS data and services by entering a search term into the search field. The Permalink button allows you to save a particular map view for future access. You can define the language and the reference time used in the application via the menu item \"Settings\". You will also find separate buttons to open the Help pages or the Legal Disclosure information.</div>"+
+                                "<div>Use the <i>arrow icon</i> "+
+                                "<img class='img' src='modern/resources/img/helpPage/mobile_button_backMenu.png' title='Navigate back' alt='mobile_button_backMenu.png' width='16' height='21' style='vertical-align:middle'>"+
+                                " in the top-left corner to return to the previous screen.</div><br />"+
+                                "<h2 style='font-weight:bold'>2.1 Multi search bar</h2>"+
+                                    "<p>The multi search bar makes it possible to search for spatial data as well as for BfS data and services. Touch the textbox to open the keyboard on your device. Enter your text and the results will be shown in a window below the bar. Tap on the X icon "+
+                                    "<img class='img' src='modern/resources/img/helpPage/mobile_button_deleteSearch.png' title='Delete search' alt='mobile_button_deleteSearch.png' width='21' height='21' style='vertical-align:middle'>"+
+                                    " at the right-hand side of the search field to delete the entry and close the result window.</p><br />"+
+                                    "<p><b>Spatial search</b><br />"+
+                                    "You can use the multi search bar to search for locations. The results will be displayed once you have entered your text and pressed the <i>Enter button</i> on your device. Select the desired location with a tap on the name and the map view will refresh automatically.</p><br />"+
+                                    "<p><b>Search for data and services</b><br />"+
+                                    "In addition to the spatial search, the application also searches for BfS data and services. Further information can be found in the Metadata window. Click on the information icon "+
+                                    "<img class='img' src='modern/resources/img/helpPage/mobile_button_search_info.png' title='Information button' alt='button_search_info.png' width='15' height='15' style='vertical-align:middle'>"+
+                                    " to open the Metadata window. Data and services that are associated with a button showing a map and a plus symbol "+
+                                    "<img class='img' src='modern/resources/img/helpPage/mobile_button_search_addData.png' title='Add data to the map' alt='button_search_addData.png' width='17' height='17' style='vertical-align:middle'>"+
+                                    " can be added to the map by a tap.</p><br />"+
+                                "<h2 style='font-weight:bold'>2.2 Selection</h2>"+
+                                    "<div>The menu item \"Selection\" makes it possible to add layers to the map. The layers are organized by subjects. Touch the subject title or the <i>arrow icon</i> "+
+                                    "<img class='img' src='modern/resources/img/helpPage/mobile_button_layerSet.png' title='Open layer set' alt='mobile_button_layerSet.png' width='11' height='17' style='vertical-align:middle'>"+
+                                    " on the left-hand side to open the selection of available layers.</div><br />"+
+                                    "<div>Touch the layer name to open a layer-specific window. Depending on the type of layer, the window may also include settings so that you can select data with the help of a time filter and/or value filter. Simply tap on \"Add Selected Layer\" to add a layer. The query function is automatically activated "+
+                                    "<img class='img' src='modern/resources/img/helpPage/mobile_legend_chart_on.png' title='Active chart' alt='mobile_legend_chart_on.png' width='20' height='15' style='vertical-align:middle'>"+
+                                    " for newly added layers.</div><br />"+
+                                "<h2 style='font-weight:bold'>2.3 Add external WMS</h2>"+
+                                    "<div>The WMS service can be used to add WMS layers to display external geo data. Please find more detailed information on the topic of Web Map Service at the following address: <a href='http://cite.opengeospatial.org/pub/cite/files/edu/wms/text/basic-index.html' target='_blank'>OGC Compliance Wiki - WMS</a>.</div><br />"+
+                                    "<div>Tap on the \"Layer Selection\" button to open a selection of predefined WMS-URLs that can be queried. </div>"+
+                                    "<div>For an individual WMS query, enter a valid query into the \"WMS-URL\" field. Then press the \"Query Available Layer\" button. The results will be shown in the \"Available Layer\" field. Check the boxes for the required layers so that they will be shown in the legend and thus also on the map. Confirm the selection with the \"Add Selected Layer\" button. Initially, these layers will be positioned hierarchically at the top of the legend and thus mapped over all the other layers in the representation.</div><br />"+
+                                    "<h2 style='font-weight:bold'>2.4 Permalink</h2>"+
+                                    "<div>A permalink is a hyperlink permanently referencing the contents of a webpage. It contains map view information (zoom level and position) as well as additionally loaded contents (layers with filter settings).</div>"+
+                                    "<div>A permalink thus makes it possible to save a particular map view for future access. Choose the required map view and press the Permalink button to display the permalink corresponding to the current map view.</div><br />"+
+                                "<h2 style='font-weight:bold'>2.5 Settings</h2>"+
+                                    "<div>The Settings menu allows you to set both the language and the reference time.</div><br />"+
+                                    "<div>The Language selection menu controls the language used for the entire application. You can choose your language by tapping on the referenced symbol. Tapping onto the downward arrow will open the selection menu showing the available languages. \"DE\" means German, \"EN\" means English.</div><br />"+
+                                    "<div>The default setting for the reference time is Coordinated Universal Time - UTC. Using a universal reference time is essential for international cooperation and/or the analysis of data over different time zones. If you work with time-related data, please remember to verify the reference time settings. Pressing the \"Time reference (UTC)\" button will change the time to the local time \"Time refence (local)\". This means that the system time of your device will be used. The local time only refers to the time displayed at the client's.</div><br />"+
+                                "<h2 style='font-weight:bold'>2.6 Help</h2>"+
+                                    "<div>Use this button to open the Help pages for the mobile application.</div><br />"+
+                                "<h2 style='font-weight:bold'>2.7 Imprint</h2>"+
+                                    "<div>Use this button to open the Legal Disclosure information and the Terms of Use.</div><br />",
+                "helpNavigationTitle": "<h1 style='font-weight:bold; font-size:16px; color:black'>3. Navigation</h1>",
+                "helpNavigationHtml": "<div>The Navigation menu includes buttons to zoom in and out of the map and a button to reset the map view to the initial position and initial zoom level (full view of Germany).</div>"+
+                                      "<h2 style='font-weight:bold'>3.1 Zoom in  <img class='img' src='modern/resources/img/helpPage/mobile_button_zoomIn.png' title='Zoom in' alt='mobile_button_zoomIn.png' width='32' height='27' style='vertical-align:middle'></h2>"+
+                                        "<div>The topmost button zooms into the map using a predefined zoom level. As a result, the map scale of the current view becomes larger. Alternatively, you can double-tap the map at the desired location or use the <i>2 fingers zoom</i> to zoom into the map.</div>"+
+                                      "<h2 style='font-weight:bold'>3.2 Zoom out  <img class='img' src='modern/resources/img/helpPage/mobile_button_zoomOut.png' title='Zoom out' alt='mobile_button_zoomOut.png' width='32' height='27' style='vertical-align:middle'></h2>"+
+                                        "<div>The second button zooms out of the map using a predefined zoom level. As a result, the map scale of the current view becomes smaller. Alternatively, you can double-tap the map at the desired location or use the <i>2 fingers zoom</i> to zoom out of the map.</div>"+
+                                      "<h2 style='font-weight:bold'>3.3 Initial map view  <img class='img' src='modern/resources/img/helpPage/mobile_button_zoomBack.png' title='Initial map view' alt='mobile_button_zoomBack.png' width='32' height='27' style='vertical-align:middle'></h2>"+
+                                        "<div>The third button (crossed arrows) zooms and/or shifts the view to the initially displayed map section. Germany is shown at the centre of the map view.</div>"+
+                                      "<h2 style='font-weight:bold'>3.4 Full screen  <img class='img' src='modern/resources/img/helpPage/mobile_button_extend.png' title='Full screen' alt='mobile_button_extend.png' width='32' height='27' style='vertical-align:middle'></h2>"+
+                                        "<div>A tap on the lowest button (two arrows) will enlarge the view so that the application uses the full screen of your device (if your mobile browser supports full screen mode).</div>",
+                "helpLegendTitle": "<h1 style='font-weight:bold; font-size:16px; color:black'>4. Legend <img class='img' src='modern/resources/img/helpPage/mobile_button_legend.png' title='Open legend' alt='mobile_button_legend.png' width='40' height='33' style='vertical-align:middle'></h1>",
+                "helpLegendHtml": "<div>The legend comprises all layers that are loaded into the map view. Please refer to Section <i>2.2. Selection</i> for more information on adding layers.</div><br />"+
+                                  "<div>As mentioned above in Section 1, please ensure that the relevant layer is selected to retrieve information on the desired geometries. Remember that the diagram icon must be activated "+
+                                  "<img class='img' src='modern/resources/img/helpPage/mobile_legend_chart_on.png' title='Active chart' alt='mobile_legend_chart_on.png' width='20' height='15' style='vertical-align:middle'>"+
+                                  " and not deactivated "+
+                                  "<img class='img' src='modern/resources/img/helpPage/mobile_legend_chart_off.png' title='Inactive chart' alt='mobile_legend_chart_off.png' width='20' height='15' style='vertical-align:middle'>"+
+                                  ". Selected layers are labelled in turquoise in the legend. Touch the layer name to open an explanation of the signs and symbols.</div><br />"+
+                                  "<div>The layer sequence defines the hierarchy in the mapping. Thus, the topmost layer will be mapped over the following layers. You can change the sequence with the help of the corresponding arrows "+
+                                  "<img class='img' src='modern/resources/img/helpPage/mobile_button_moveLayer.png' title='Define layer sequence' alt='mobile_button_moveLayer.png' width='53' height='21' style='vertical-align:middle'>"+
+                                  "</div><br />"+
+                                  "<div>The eye icon to the left of the layer name governs whether a layer is shown on the map "+
+                                  "<img class='img' src='modern/resources/img/helpPage/mobile_legend_eye_on.png' title='active layer' alt='mobile_legend_eye_on.png' width='18' height='12' style='vertical-align:middle'>"+
+                                  ", or not "+
+                                  "<img class='img' src='modern/resources/img/helpPage/mobile_legend_eye_off.png' title='inactive layer' alt='mobile_legend_eye_off.png' width='18' height='14' style='vertical-align:middle'>"+
+                                  ". You can also delete layers from the legend. To delete a layer, tap the blue X icon "+
+                                  "<img class='img' src='modern/resources/img/helpPage/mobile_legend_delete.png' title='Delete layer' alt='mobile_legend_delete.png' width='13' height='12' style='vertical-align:middle'>"+
+                                  " to the right of the layer name. Tap on the information button "+
+                                  "<img class='img' src='modern/resources/img/helpPage/mobile_button_info.png' title='Information button' alt='mobile_button_info.png' width='20' height='19' style='vertical-align:middle'>"+
+                                  " to obtain metadata. You can adjust the transparency with the help of the slider "+
+                                  "<img class='img' src='modern/resources/img/helpPage/mobile_slider_transparent.png' title='Slider transparency' alt='mobile_slider_transparent.png' width='84' height='22' style='vertical-align:middle'>"+
+                                  ".</div><br />"+
+                                  "<div>If you wish to change the filter settings for a layer, touch the filter data relating to the relevant layer within the legend. You can now change the settings, as described in Section <i>2.2 Selection</i>.</div>",
+                  "helpSoftwareVersionTitle": "<h1 style='font-weight:bold; font-size:16px; color:black'>Software version</h1>",
+                  "helpSoftwareVersionHtml": "Software version could not be obtained dynamically."
+            }
+        }
+    },
+
+
+    "Ext.Date": {
+        "monthNames": [
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December"
+        ],
+        "defaultFormat": "m/d/Y",
+        "monthNumbers": {
+            "Jan": 0,
+            "Feb": 1,
+            "Mar": 2,
+            "Apr": 3,
+            "May": 4,
+            "Jun": 5,
+            "Jul": 6,
+            "Aug": 7,
+            "Sep": 8,
+            "Oct": 9,
+            "Nov": 10,
+            "Dec": 11
+        },
+        "dayNames": [
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+        ]
+    },
+    "Ext.util.Format": {
+        "thousandSeparator": ",",
+        "decimalSeparator": ".",
+        "currencySign": "$",
+        "dateFormat": "m/d/Y"
+    },
+    "Ext.view.View": {
+        "emptyText": ""
+    },
+    "Ext.grid.plugin.DragDrop": {
+        "dragText": "{0} selected row{1}"
+    },
+    "Ext.tab.Tab": {
+        "closeText": "Close this Tab"
+    },
+    "Ext.form.Basic": {
+        "waitTitle": "Please Wait..."
+    },
+    "Ext.form.field.Base": {
+        "invalidText": "The value in this field is invalid"
+    },
+    "Ext.LoadMask": {
+        "msg": "Loading..."
+    },
+    "Ext.view.AbstractView": {
+        "loadingText": "Loading..."
+    },
+    "Ext.picker.Date": {
+        "todayText": "Today",
+        "minText": "This date is before the minimum date",
+        "maxText": "This date is after the maximum date",
+        "disabledDaysText": "",
+        "disabledDatesText": "",
+        "nextText": "Next Month (Control+Right)",
+        "prevText": "Previous Month (Control+Left)",
+        "monthYearText": "Choose a month (Control+Up/Down to move years)",
+        "todayTip": "{0} (Spacebar)",
+        "format": "m/d/y",
+        "startDay": 0
+    },
+    "Ext.picker.Month": {
+        "okText": "&#160;OK&#160;",
+        "cancelText": "Cancel"
+    },
+    "Ext.toolbar.Paging": {
+        "beforePageText": "Page",
+        "afterPageText": "of {0}",
+        "firstText": "First Page",
+        "prevText": "Previous Page",
+        "nextText": "Next Page",
+        "lastText": "Last Page",
+        "refreshText": "Refresh",
+        "displayMsg": "Displaying {0} - {1} of {2}",
+        "emptyMsg": "No data to display"
+    },
+    "Ext.form.field.Text": {
+        "minLengthText": "The minimum length for this field is {0}",
+        "maxLengthText": "The maximum length for this field is {0}",
+        "blankText": "This field is required",
+        "regexText": "",
+        "emptyText": null
+    },
+    "Ext.form.field.Number": {
+        "minText": "The minimum value for this field is {0}",
+        "maxText": "The maximum value for this field is {0}",
+        "nanText": "{0} is not a valid number"
+    },
+    "Ext.form.field.Date": {
+        "disabledDaysText": "Disabled",
+        "disabledDatesText": "Disabled",
+        "minText": "The date in this field must be after {0}",
+        "maxText": "The date in this field must be before {0}",
+        "invalidText": "{0} is not a valid date - it must be in the format {1}",
+        "format": "m/d/y",
+        "altFormats": "m/d/Y|m-d-y|m-d-Y|m/d|m-d|md|mdy|mdY|d|Y-m-d",
+        "startDay": 1
+    },
+    "Ext.form.field.ComboBox": {
+        "valueNotFoundText": null,
+        "defaultListConfig": {
+            "loadingText": "Loading..."
+        }
+    },
+    "Ext.form.field.VTypes": {
+        "emailText": "This field should be an e-mail address in the format 'user@example.com'",
+        "urlText": "This field should be a URL in the format 'http://www.example.com'",
+        "alphaText": "This field should only contain letters and _",
+        "alphanumText": "This field should only contain letters, numbers and _"
+    },
+    "Ext.form.field.HtmlEditor": {
+        "createLinkText": "Please enter the URL for the link:",
+        "buttonTips": {
+            "bold": {
+                "title": "Bold (Ctrl+B)",
+                "text": "Make the selected text bold.",
+                "cls": "x-html-editor-tip"
+            },
+            "italic": {
+                "title": "Italic (Ctrl+I)",
+                "text": "Make the selected text italic.",
+                "cls": "x-html-editor-tip"
+            },
+            "underline": {
+                "title": "Underline (Ctrl+U)",
+                "text": "Underline the selected text.",
+                "cls": "x-html-editor-tip"
+            },
+            "increasefontsize": {
+                "title": "Grow Text",
+                "text": "Increase the font size.",
+                "cls": "x-html-editor-tip"
+            },
+            "decreasefontsize": {
+                "title": "Shrink Text",
+                "text": "Decrease the font size.",
+                "cls": "x-html-editor-tip"
+            },
+            "backcolor": {
+                "title": "Text Highlight Color",
+                "text": "Change the background color of the selected text.",
+                "cls": "x-html-editor-tip"
+            },
+            "forecolor": {
+                "title": "Font Color",
+                "text": "Change the color of the selected text.",
+                "cls": "x-html-editor-tip"
+            },
+            "justifyleft": {
+                "title": "Align Text Left",
+                "text": "Align text to the left.",
+                "cls": "x-html-editor-tip"
+            },
+            "justifycenter": {
+                "title": "Center Text",
+                "text": "Center text in the editor.",
+                "cls": "x-html-editor-tip"
+            },
+            "justifyright": {
+                "title": "Align Text Right",
+                "text": "Align text to the right.",
+                "cls": "x-html-editor-tip"
+            },
+            "insertunorderedlist": {
+                "title": "Bullet List",
+                "text": "Start a bulleted list.",
+                "cls": "x-html-editor-tip"
+            },
+            "insertorderedlist": {
+                "title": "Numbered List",
+                "text": "Start a numbered list.",
+                "cls": "x-html-editor-tip"
+            },
+            "createlink": {
+                "title": "Hyperlink",
+                "text": "Make the selected text a hyperlink.",
+                "cls": "x-html-editor-tip"
+            },
+            "sourceedit": {
+                "title": "Source Edit",
+                "text": "Switch to source editing mode.",
+                "cls": "x-html-editor-tip"
+            }
+        }
+    },
+    "Ext.grid.header.Container": {
+        "sortAscText": "Sort Ascending",
+        "sortDescText": "Sort Descending",
+        "sortClearText": "Remove Sorting",
+        "columnsText": "Columns"
+    },
+    "Ext.grid.PropertyColumnModel": {
+        "nameText": "Name",
+        "valueText": "Value",
+        "dateFormat": "m/j/Y",
+        "trueText": "true",
+        "falseText": "false"
+    },
+    "Ext.grid.BooleanColumn": {
+        "trueText": "true",
+        "falseText": "false"
+    },
+    "Ext.grid.NumberColumn": {
+        "format": "0.000,00/i"
+    },
+    "Ext.grid.DateColumn": {
+        "format": "m/d/Y"
+    },
+    "Ext.form.field.Time": {
+        "minText": "The time in this field must be equal to or after {0}",
+        "maxText": "The time in this field must be equal to or before {0}",
+        "invalidText": "{0} is not a valid time",
+        "format": "g:i A"
+    },
+    "Ext.form.CheckboxGroup": {
+        "blankText": "You must select at least one item in this group"
+    },
+    "Ext.form.RadioGroup": {
+        "blankText": "You must select one item in this group"
+    },
+    "Ext.window.MessageBox": {
+        "buttonText": {
+            "ok": "OK",
+            "cancel": "Cancel",
+            "yes": "Yes",
+            "no": "No"
+        }
+    },
+    "Ext.window.Window": {
+        "closeToolText": "Close window"
+    }
+}

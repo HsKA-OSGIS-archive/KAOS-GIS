@@ -1,0 +1,22 @@
+.k-chart-timeseries .x-legend .x-legend-item,
+.k-chart-timeseries .x-legend .x-legend-item.x-view-item-focused  {
+    /**
+     * We need the important as Sencha has also an importasnt in their style :-(
+     */
+    outline: none !important;
+}
+.k-chart-timeseries .x-legend {
+    cursor: pointer;
+}
+.k-chart-timeseries .k-selected-chart-legend {
+    color: $panel-header-color;
+    background-color: $panel-header-background-color;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+.k-window-timeserieswindow .x-window-header-default-top {
+    padding: 0px 0px 0px 0px;
+}
+.k-window-timeserieswindow .x-panel-header-default-horizontal.x-header-noborder {
+    padding: 0px 0px 0px 0px;
+}

@@ -1,0 +1,52 @@
+.x-title-icon-navigation {
+    font-family: FontAwesome;
+    color: #fff;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.x-tab-icon-el-navigation {
+    font-family: FontAwesome;
+    color: #acacac;
+
+    .x-tab-over & {
+        color: #c4c4c4;
+    }
+
+    .x-tab-active & {
+        color: #fff;
+    }
+}
+
+.x-panel-header-title-navigation > .x-title-text-navigation:after {
+    top: 30px;
+    right: -24px;
+}
+
+.ol-scale-line {
+    bottom: 5px;
+    left: 50px;
+    width: 165px;
+    background-color: $button-default-background-color;
+}
+.ol-scale-line.koala-scaline-adjusted {
+    left: 405px;
+}
+
+.ol-scale-line-inner {
+    margin: 0 auto;
+}
+
+.ol-attribution.ol-uncollapsible {
+    height: 1.4em;
+    right: 250px;
+    color: #333;
+    background: rgba(255,255,255,.7);
+}
+.ol-attribution.ol-uncollapsible a,
+.ol-attribution.ol-uncollapsible a:link
+.ol-attribution.ol-uncollapsible a:visited,
+.ol-attribution.ol-uncollapsible a:hover,
+.ol-attribution.ol-uncollapsible a:active {
+    color: #333;
+}

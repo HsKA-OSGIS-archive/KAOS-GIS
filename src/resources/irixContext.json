@@ -1,0 +1,319 @@
+{
+    "data": {
+        "fields": [{
+                    "name": "DokpoolContentType",
+                    "label": "Inhaltstyp",
+                    "type": "combo",
+                    "values": [
+                        ["weatherinformation", "Wetterinformation"],
+                        ["trajectory", "Trajektorie"],
+                        ["rodosprojection", "RODOS_Prognose"],
+                        ["gammadoserate", "Messergebnis_ODL"],
+                        ["gammadoserate_timeseries", "Messergebnis_ODL Zeitreihe"],
+                        ["airactivity", "Messergebnis_Luftaktivität"],
+                        ["groundcontamination", "Messergebnis_Bodenkontamination"],
+                        ["mresult_insitu", "Messergebnis_Insitu"],
+                        ["mresult_feed", "Messergebnis_Futtermittel"],
+                        ["mresult_food", "Messergebnis_Lebensmittel"],
+                        ["mresult_water", "Messergebnis_Gewässer"]
+                    ],
+                    "defaultValue": "gammadoserate",
+                    "allowBlank": true
+                },{
+                "name": "Title",
+                "label": "Titel",
+                "type": "text",
+                "defaultValue": "IMIS-GIS Kartendokument",
+                "allowBlank": false
+            },{
+                "name": "User",
+                "label": "Benutzer",
+                "type": "text",
+                "defaultValue": "IMIS Testbenutzer",
+                "allowBlank": true
+            },{
+                "name": "requestType",
+                "label": "Anforderung",
+                "type": "combo",
+                "values": [
+                    ["upload", "upload"],
+                    ["respond", "respond"],
+                    ["upload/respond", "upload/respond"]
+                ],
+                "defaultValue": "respond",
+                "allowBlank": true
+            },{
+                "name": "Text",
+                "label": "Text",
+                "type": "string",
+                "defaultValue": "",
+                "allowBlank": true
+            },{
+                "name": "ElanScenarios",
+                "label": "Elan Ereignisse",
+                "type": "tagfield",
+                "valueField": "@id",
+                "displayField": "title",
+                "values": [],
+                "defaultValue": "",
+                "allowBlank": true
+            },{
+                "type": "fieldset",
+                "name": "Identification",
+                "label": "Kopfinformation",
+                "fields": [{
+                    "name": "OrganisationReporting",
+                    "label": "Organisation",
+                    "type": "text",
+                    "defaultValue": "imis.bfs.de",
+                    "allowBlank": true
+                },{
+                    "type": "fieldset",
+                    "name": "ReportingBases",
+                    "label": "Report Basen",
+                    "fields": [{
+                        "name": "ReportingBasis",
+                        "label": "Report Basis",
+                        "type": "text",
+                        "defaultValue": "ESD",
+                        "allowBlank": true
+                    }]
+                },{
+                    "name": "SequenceNumber",
+                    "label": "Laufende Nr.",
+                    "type": "text",
+                    "defaultValue": "1",
+                    "allowBlank": true
+                },{
+                    "type": "fieldset",
+                    "name": "OrganisationContact",
+                    "label": "Kontakt",
+                    "fields":[{
+                        "name": "Name",
+                        "label": "Name",
+                        "type": "text",
+                        "defaultValue": "Bundesamt für Strahlenschutz",
+                        "allowBlank": true
+                    },{
+                        "name": "OrganisationID",
+                        "label": "OrganisationID",
+                        "type": "text",
+                        "defaultValue": "imis.bfs.de",
+                        "allowBlank": true
+                    },{
+                        "name": "Country",
+                        "label": "Land (ISO 3166-2)",
+                        "type": "text",
+                        "defaultValue": "DE",
+                        "allowBlank": true
+                    }]
+                }],
+                "collapsible": true,
+                "collapsed": true
+            },{
+                    "name": "ReportContext",
+                    "label": "Report Inhaltstyp",
+                    "type": "combo",
+                    "values": [
+                        ["Emergency", "Notfall"],
+                        ["Routine", "Routine"],
+                        ["Exercise", "Übung"],
+                        ["Test", "Test"]
+                    ],
+                    "defaultValue": "Test",
+                    "allowBlank": true
+                },{
+                    "name": "Confidentiality",
+                    "label": "Sichtbarkeit",
+                    "type": "combo",
+                    "values": [
+                        ["For Addressees Use Only", "Gruppenintern"],
+                        ["Free for Public Use", "Alle"]
+                    ],
+                    "defaultValue": "Free for Public Use",
+                    "allowBlank": false
+                },{
+                "type": "fieldset",
+                "name": "DokpoolBehaviour",
+                "label": "DokpoolBehaviour",
+                "fields": [{
+                    "name": "IsElan",
+                    "label": "Is Elan",
+                    "type": "checkbox",
+                    "defaultValue": true
+                },{
+                    "name": "IsDoksys",
+                    "label": "Is Doksys",
+                    "type": "checkbox",
+                    "defaultValue": false
+                },{
+                    "name": "IsRodos",
+                    "label": "Is Rodos",
+                    "type": "checkbox",
+                    "defaultValue": false
+                },{
+                    "name": "IsRei",
+                    "label": "Is Rei",
+                    "type": "checkbox",
+                    "defaultValue": false
+                }],
+                "collapsible": true,
+                "collapsed": false
+               },{
+                "type": "fieldset",
+                "name" : "DokpoolMeta",
+                "label" : "DokpoolMeta",
+                "fields": [{
+                    "name": "Purpose",
+                    "label": "Zweck",
+                    "type": "combo",
+                    "values": [
+                        ["Standard-Info", "Standard-Info"],
+                        ["Bundesmessnetze", "Bundesmessnetze"],
+                        ["Standard-Info DWD", "Standard-Info DWD"]
+                    ],
+                    "defaultValue": "Standard-Info",
+                    "allowBlank": true
+                },{
+                    "name": "DokpoolName",
+                    "label": "Name des Dokpool",
+                    "type": "combo",
+                    "values": [
+                        ["bund", "bund"]
+                    ],
+                    "defaultValue": "bund",
+                    "allowBlank": true
+                },{
+                    "name": "DokpoolGroupFolder",
+                    "label": "Gruppenordner im Dokool",
+                    "type": "combo",
+                    "values": [
+                        ["bund_e-rb", "BfS Rufbereitschaft (Bund)"],
+                        ["bund_bfs-rodos/von-gis", "BfS RODOS (Bund) | von GIS"],
+                        ["bund_bfs-messungen/von-gis", "BfS Messungen (Bund) | von GIS"],
+                        ["bund_bfs-lage/von-gis", "BfS Lage (Bund) | von GIS"]
+                    ],
+                    "defaultValue": "bund_bfs-messungen/von-gis",
+                    "allowBlank": true
+                },{
+                    "name": "NetworkOperator",
+                    "label": "Messnetz",
+                    "type": "combo",
+                    "values": [
+                        "U - BfS (ABI)",
+                        "W - DWD",
+                        "X - ausländ. Messnetze",
+                        "Z - BfS (ODL)"
+                    ],
+                    "defaultValue": "Z - BfS (ODL)",
+                    "allowBlank": true
+                },{
+                    "name": "SampleTypeId",
+                    "label": "Umweltbereich ID",
+                    "type": "combo",
+                    "values": [
+                        ["B1", "B1"],
+                        ["G", "G"],
+                        ["L12", "L12"],
+                        ["L31", "L31"],
+                        ["L41", "L41"]
+                    ],
+                    "defaultValue": "L12",
+                    "allowBlank": true
+                },{
+                    "name": "SampleType",
+                    "label": "Umweltbereich",
+                    "type": "combo",
+                    "values": [
+                        ["B1 - Boden in-situ", "B1 - Boden in-situ"],
+                        ["G - Gewässer", "G - Gewässer"],
+                        ["L12 - Gamma-Ortsdosisleistung", "L12 - Gamma-Ortsdosisleistung"],
+                        ["L31 - Aerosole", "L31 - Aerosole"],
+                        ["L41 - Luft/gasförmiges Iod", "L41 - Luft/gasförmiges Iod"]
+                    ],
+                    "defaultValue": "L12 - Gamma-Ortsdosisleistung",
+                    "allowBlank": true
+                },{
+                    "name": "Dom",
+                    "label": "Messmethode",
+                    "type": "combo",
+                    "values": [
+                        ["Gamma-Spektrometrie", "Gamma-Spektrometrie"],
+                        ["Gamma-ODL", "Gamma-ODL"],
+                        ["Gesamt-Beta / Gesamt-Alpha",
+                        "Gesamt-Beta / Gesamt-Alpha"]
+                    ],
+                    "defaultValue": "Gamma-ODL",
+                    "allowBlank": true
+                },{
+                    "name": "DataType",
+                    "label": "Datenquelle",
+                    "type": "combo",
+                    "values": [
+                        ["OnMon", "OnMon Datenbank"],
+                        ["LaDa", "Labordaten"]
+                    ],
+                    "defaultValue": "OnMon",
+                    "allowBlank": false
+                },{
+                    "name": "LegalBase",
+                    "label": "Gesetzliche Grundlage",
+                    "type": "combo",
+                    "values": [
+                        ["§2", "§2"],
+                        ["§3", "§3"],
+                        ["§7", "§7"],
+                        ["DENSE", "DENSE"],
+                        ["Europa", "Europa"],
+                        ["KFÜ", "KFÜ"],
+                        ["Land", "Land"],
+                        ["REI-E", "REI-E"],
+                        ["REI-I", "REI-I"],
+                        ["SPARSE", "SPARSE"]
+                    ],
+                    "defaultValue": "§2",
+                    "allowBlank": false
+                },{
+                    "name": "MeasuringProgram",
+                    "label": "Messprogramm",
+                    "type": "combo",
+                    "values": [
+                        ["Intensivmessprogramm", "Intensivmessprogramm"],
+                        ["REI", "REI"],
+                        ["Routinemessprogramm", "Routinemessprogramm"],
+                        ["Spontanproben Bund", "Spontanproben Bund"]
+                    ],
+                    "defaultValue": "Routinemessprogramm",
+                    "allowBlank": false
+                },{
+                    "name": "Status",
+                    "label": "Status",
+                    "type": "combo",
+                    "values": [
+                        ["0 - nicht vergeben", "0 - nicht vergeben"],
+                        ["1 - plausibel", "1 - plausibel"],
+                        ["2 - nicht repräsentativ", "2 - nicht repräsentativ"],
+                        ["3 - nicht plausibel", "3 - nicht plausibel"],
+                        ["4 - Rückfrage abgesetzt", "4 - Rückfrage abgesetzt"],
+                        ["6 - Rücklauf bearbeitet", "6 - Rücklauf bearbeitet"]
+                    ],
+                    "defaultValue": "1 - plausibel",
+                    "allowBlank": false
+                },{
+                    "name": "SamplingBegin",
+                    "label": "Probeentnahme Beginn",
+                    "type": "datetime",
+                    "allowBlank": false
+                },{
+                    "name": "SamplingEnd",
+                    "label": "Probeentnahme Ende",
+                    "type": "datetime",
+                    "allowBlank": false
+                }],
+                "collapsible": true,
+                "collapsed": true
+            }
+        ]
+    },
+    "success": true
+}
