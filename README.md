@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# KAOS-GIS
-=======
 IMIS3 GIS-Client
 ===========
 Dies ist eine Kopie des ExtJS basierten Klienten der vom Bundesamt für Strahlenschutz zur kartographischen webbasierten Visualisierung von Umweltdaten entwickelt und eingesetzt wird.
@@ -65,4 +62,3 @@ Installation
 ------------
 FIXME: put Install in separate `INSTALL.markdown`.
 Für Informationen zur Installation schauen Sie in die `INSTALL.markdown` Datei.
->>>>>>> gis-client/master
